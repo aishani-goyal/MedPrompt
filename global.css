@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-lato: Lato;
+  --font-red-hat-mono: "Red Hat Mono";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-13xl: 32px;
+  --font-size-base: 16px;
+  --font-size-mini: 15px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-smi: 13px;
+  --font-size-10xl: 29px;
+  --font-size-11xl: 30px;
+  --font-size-5xs: 8px;
+  --font-size-4xs: 9px;
+  --font-size-3xs: 10px;
+  --font-size-3xl: 22px;
+  --font-size-xl: 20px;
+  --font-size-lgi: 19px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-slateblue-100: #5a4fcf;
+  --color-black: #000;
+  --color-aliceblue-100: #ebeffa;
+  --color-aliceblue-200: #ebeefa;
+  --color-gray-300: #857979;
+  --color-gray-400: rgba(137, 137, 145, 0.08);
+  --color-gray-200: rgba(138, 137, 144, 0.08);
+  --color-gray-100: rgba(0, 0, 0, 0);
+  --color-lavender-300: #ebebff;
+  --color-lavender-400: #e6e6fa;
+  --color-lavender-500: rgba(230, 230, 250, 0.25);
+  --color-lavender-100: rgba(230, 230, 250, 0.19);
+  --color-lavender-200: rgba(220, 225, 255, 0.82);
+  --color-lavender-600: rgba(230, 230, 250, 0.37);
+  --color-lavender-700: rgba(230, 230, 250, 0.43);
+  --color-dimgray: rgba(78, 78, 96, 0.47);
+  --color-mediumslateblue: rgba(93, 81, 216, 0.92);
+  --color-lightsteelblue-100: rgba(197, 204, 240, 0.75);
+  --color-lightsteelblue-200: rgba(199, 198, 237, 0.34);
+  --color-gainsboro-100: #d9d9d9;
+
+  /* Gaps */
+  --gap-16xl: 35px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-6xl: 25px;
+  --padding-xl: 20px;
+  --padding-3xl: 22px;
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-5xs: 8px;
+  --br-7xs: 6px;
+  --br-xl: 20px;
+  --br-8xs: 5px;
+  --br-6xs: 7px;
+}

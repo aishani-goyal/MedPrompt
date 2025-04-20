@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Search Results</title>
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./search-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Red Hat Mono:wght@700&display=swap"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+      @font-face {
+        font-family: "Lato";
+        src: url("./public/Lato-ExtraBold.ttf");
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-page">
+      <nav class="navbar">
+        <div class="menusectionbg"></div>
+        <div class="menubtnsection">
+          <div class="menubtnsectionbg"></div>
+        </div>
+        <div class="logosection">
+          <div class="logosectionbg"></div>
+          <div class="medprompt">MedPrompt</div>
+          <img class="logopic-icon" alt="" src="./public/logopic2.svg" />
+        </div>
+        <div class="home-parent">
+          <button class="home" id="home">
+            <div class="home1">Home</div>
+          </button>
+          <button class="about" id="about">
+            <div class="home1">About</div>
+          </button>
+          <button class="services" id="services">
+            <div class="home1">Services</div>
+          </button>
+          <button class="doctors" id="doctors">
+            <div class="home1">Doctors</div>
+          </button>
+          <button class="testimonial" id="testimonial">
+            <div class="home1">Testimonial</div>
+          </button>
+          <button class="blog" id="blog">
+            <div class="home1">Blog</div>
+          </button>
+          <button class="appointment" id="appointment">
+            <div class="appointmentbg"></div>
+            <div class="appointmenttext">Book Appointment</div>
+          </button>
+        </div>
+      </nav>
+      <div id="searchSection" class="searchsection">
+        <b class="doctors-matching-your"
+          >“Doctors Matching Your Search Criteria”</b
+        >
+        <div class="expertbox1">
+          <div class="expertbox1bg"></div>
+          <div class="docimg1"></div>
+          <div class="doctornamedoc1">Doctor Name</div>
+          <div class="specialitydoc1">Speciality</div>
+          <div class="ratingdoc1">Rating</div>
+          <div class="experiencedoc1">Experience</div>
+          <div class="qualificationdoc1">Qualification</div>
+          <div class="timingdoc1">Timing</div>
+          <div class="contactdoc1">Contact</div>
+          <div class="locationdoc1">Location</div>
+        </div>
+        <div class="expertbox2">
+          <div class="expertbox1bg"></div>
+          <div class="docimg1"></div>
+          <div class="doctornamedoc1">Doctor Name</div>
+          <div class="specialitydoc2">Speciality</div>
+          <div class="ratingdoc1">Rating</div>
+          <div class="experiencedoc1">Experience</div>
+          <div class="qualificationdoc1">Qualification</div>
+          <div class="timingdoc1">Timing</div>
+          <div class="contactdoc1">Contact</div>
+          <div class="locationdoc1">Location</div>
+        </div>
+        <div class="expertbox3">
+          <div class="expertbox1bg"></div>
+          <div class="docimg1"></div>
+          <div class="doctornamedoc1">Doctor Name</div>
+          <div class="specialitydoc3">Speciality</div>
+          <div class="ratingdoc1">Rating</div>
+          <div class="experiencedoc1">Experience</div>
+          <div class="qualificationdoc1">Qualification</div>
+          <div class="timingdoc1">Timing</div>
+          <div class="contactdoc1">Contact</div>
+          <div class="locationdoc1">Location</div>
+        </div>
+        <div class="expertbox4">
+          <div class="expertbox1bg"></div>
+          <div class="docimg1"></div>
+          <div class="doctornamedoc1">Doctor Name</div>
+          <div class="specialitydoc4">Speciality</div>
+          <div class="ratingdoc1">Rating</div>
+          <div class="experiencedoc1">Experience</div>
+          <div class="qualificationdoc1">Qualification</div>
+          <div class="timingdoc1">Timing</div>
+          <div class="contactdoc1">Contact</div>
+          <div class="locationdoc1">Location</div>
+        </div>
+        <div class="expertbox5">
+          <div class="expertbox1bg"></div>
+          <div class="docimg1"></div>
+          <div class="doctornamedoc1">Doctor Name</div>
+          <div class="specialitydoc1">Speciality</div>
+          <div class="ratingdoc1">Rating</div>
+          <div class="experiencedoc1">Experience</div>
+          <div class="qualificationdoc1">Qualification</div>
+          <div class="timingdoc1">Timing</div>
+          <div class="contactdoc1">Contact</div>
+          <div class="locationdoc1">Location</div>
+        </div>
+        <div class="expertbox6">
+          <div class="expertbox1bg"></div>
+          <div class="docimg1"></div>
+          <div class="doctornamedoc1">Doctor Name</div>
+          <div class="specialitydoc2">Speciality</div>
+          <div class="ratingdoc1">Rating</div>
+          <div class="experiencedoc1">Experience</div>
+          <div class="qualificationdoc1">Qualification</div>
+          <div class="timingdoc1">Timing</div>
+          <div class="contactdoc1">Contact</div>
+          <div class="locationdoc1">Location</div>
+        </div>
+        <div class="expertbox7">
+          <div class="expertbox1bg"></div>
+          <div class="docimg1"></div>
+          <div class="doctornamedoc1">Doctor Name</div>
+          <div class="specialitydoc3">Speciality</div>
+          <div class="ratingdoc1">Rating</div>
+          <div class="experiencedoc1">Experience</div>
+          <div class="qualificationdoc1">Qualification</div>
+          <div class="timingdoc1">Timing</div>
+          <div class="contactdoc1">Contact</div>
+          <div class="locationdoc1">Location</div>
+        </div>
+        <div class="expertbox8">
+          <div class="expertbox1bg"></div>
+          <div class="docimg1"></div>
+          <div class="doctornamedoc1">Doctor Name</div>
+          <div class="specialitydoc4">Speciality</div>
+          <div class="ratingdoc1">Rating</div>
+          <div class="experiencedoc1">Experience</div>
+          <div class="qualificationdoc1">Qualification</div>
+          <div class="timingdoc1">Timing</div>
+          <div class="contactdoc1">Contact</div>
+          <div class="locationdoc1">Location</div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footerbg"></div>
+        <div class="footerabout">
+          <div class="footerlogo">
+            <div class="medprompt1">MedPrompt</div>
+            <img class="logopic-icon1" alt="" src="./public/logopic.svg" />
+          </div>
+          <div class="your-trusted-platform">
+            Your trusted platform to find the best doctors in any location and
+            book appointments with ease. Experience seamless healthcare access
+            and personalized care at your convenience.
+          </div>
+        </div>
+        <div class="medprompt-2024">MedPrompt © 2024 All rights reserved.</div>
+        <div class="quick-links">
+          <p class="quick-links1">Quick Links</p>
+        </div>
+        <div class="connect-with-us-container">
+          <p class="connect-with-us">
+            <span class="medprompt-10th-floor">
+              <span class="connect-with-us2">Connect with us</span>
+            </span>
+          </p>
+          <p class="blank-line">
+            <span>
+              <span class="medprompt-10th-floor">&nbsp;</span>
+            </span>
+          </p>
+          <p class="connect-with-us">
+            <span>
+              <span class="medprompt-10th-floor"
+                >MedPrompt, 10th Floor, Tech Park, MG Road, Bengaluru,
+                Karnataka, 560001, India</span
+              >
+            </span>
+          </p>
+          <p class="connect-with-us">
+            <span>
+              <span class="medprompt-10th-floor">&nbsp;</span>
+            </span>
+          </p>
+          <p class="connect-with-us">
+            <span>
+              <span class="supportmedpromptcom1">support@medprompt.com</span>
+            </span>
+          </p>
+          <p class="connect-with-us">
+            <span>
+              <span class="supportmedpromptcom1">hr@medprompt.com</span>
+            </span>
+          </p>
+          <p class="connect-with-us">
+            <span>
+              <span class="medprompt-10th-floor">&nbsp;</span>
+            </span>
+          </p>
+          <p class="connect-with-us">
+            <span>
+              <span class="medprompt-10th-floor">+91-12345-67890</span>
+            </span>
+          </p>
+          <p class="connect-with-us">
+            <span>
+              <span class="medprompt-10th-floor">+91-98765-43210</span>
+            </span>
+          </p>
+        </div>
+        <button class="insta" id="insta">
+          <img class="instaicon" alt="" src="./public/instaicon.svg" />
+
+          <a class="ins" href="https://www.instagram.com/" target="_blank"
+            >LD</a
+          >
+        </button>
+        <button class="x" id="x">
+          <img class="instaicon" alt="" src="./public/twittericon.svg" />
+
+          <a class="x1" href="https://x.com/" target="_blank">LD</a>
+        </button>
+        <button class="facebook" id="facebook">
+          <img class="instaicon" alt="" src="./public/facebookicon.svg" />
+
+          <a class="fb" href="https://www.facebook.com/" target="_blank">LD</a>
+        </button>
+        <button class="linkedin" id="linkedIn">
+          <img class="instaicon" alt="" src="./public/linkedinicon.svg" />
+
+          <a class="ld" href="https://www.linkedin.com/feed/" target="_blank"
+            >LD</a
+          >
+        </button>
+        <button class="about2" id="about1">
+          <div class="about3">About</div>
+        </button>
+        <button class="services2" id="services1">
+          <div class="about3">Services</div>
+        </button>
+        <button class="doctors2" id="doctors1">
+          <div class="about3">Doctors</div>
+        </button>
+        <button class="testimonials" id="testimonials">
+          <div class="about3">Testimonials</div>
+        </button>
+        <button class="blogs" id="blogs">
+          <div class="about3">Blogs</div>
+        </button>
+      </footer>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var about = document.getElementById("about");
+      if (about) {
+        about.addEventListener("click", function (e) {
+          window.location.href = "./about-page.html";
+        });
+      }
+      
+      var services = document.getElementById("services");
+      if (services) {
+        services.addEventListener("click", function (e) {
+          window.location.href = "./service-page.html";
+        });
+      }
+      
+      var doctors = document.getElementById("doctors");
+      if (doctors) {
+        doctors.addEventListener("click", function (e) {
+          window.location.href = "./doctors-page.html";
+        });
+      }
+      
+      var testimonial = document.getElementById("testimonial");
+      if (testimonial) {
+        testimonial.addEventListener("click", function (e) {
+          window.location.href = "./testimonial-page.html";
+        });
+      }
+      
+      var blog = document.getElementById("blog");
+      if (blog) {
+        blog.addEventListener("click", function (e) {
+          window.location.href = "./blog-page.html";
+        });
+      }
+      
+      var appointment = document.getElementById("appointment");
+      if (appointment) {
+        appointment.addEventListener("click", function (e) {
+          window.location.href = "./appointment-page.html";
+        });
+      }
+      
+      var insta = document.getElementById("insta");
+      if (insta) {
+        insta.addEventListener("click", function () {
+          window.open("https://www.instagram.com/");
+        });
+      }
+      
+      var x = document.getElementById("x");
+      if (x) {
+        x.addEventListener("click", function () {
+          window.open("https://x.com/");
+        });
+      }
+      
+      var facebook = document.getElementById("facebook");
+      if (facebook) {
+        facebook.addEventListener("click", function () {
+          window.open("https://www.facebook.com/");
+        });
+      }
+      
+      var linkedIn = document.getElementById("linkedIn");
+      if (linkedIn) {
+        linkedIn.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/feed/");
+        });
+      }
+      
+      var about1 = document.getElementById("about1");
+      if (about1) {
+        about1.addEventListener("click", function (e) {
+          window.location.href = "./about-page.html";
+        });
+      }
+      
+      var services1 = document.getElementById("services1");
+      if (services1) {
+        services1.addEventListener("click", function (e) {
+          window.location.href = "./service-page.html";
+        });
+      }
+      
+      var doctors1 = document.getElementById("doctors1");
+      if (doctors1) {
+        doctors1.addEventListener("click", function (e) {
+          window.location.href = "./doctors-page.html";
+        });
+      }
+      
+      var testimonials = document.getElementById("testimonials");
+      if (testimonials) {
+        testimonials.addEventListener("click", function (e) {
+          window.location.href = "./testimonial-page.html";
+        });
+      }
+      
+      var blogs = document.getElementById("blogs");
+      if (blogs) {
+        blogs.addEventListener("click", function (e) {
+          window.location.href = "./blog-page.html";
+        });
+      }
+      </script>
+  </body>
+
+<script>
+  $(document).ready(function () {
+    // Function to retrieve and display stored data
+    function displayStoredData() {
+      var storedData = window.sessionStorage.getItem('searchResults');
+      if (storedData) {
+        $("#searchSection").html(storedData); // Display the stored HTML response in the search section
+      }
+    }
+
+    // Call displayStoredData function on page load
+    displayStoredData();
+
+    // Optional: If you want to remove stored data after displaying it once
+    window.sessionStorage.removeItem('searchResults');
+  });
+</script>
+
+
+
+
+</html>

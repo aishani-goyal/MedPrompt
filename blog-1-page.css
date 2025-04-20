@@ -1,0 +1,630 @@
+.blog-1-page-child,
+.childcare-icon {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.blog-1-page-child {
+  height: 11.96%;
+  top: 0;
+  bottom: 88.04%;
+  background-color: var(--color-lavender-300);
+}
+.childcare-icon {
+  height: 30.7%;
+  top: 11.96%;
+  bottom: 57.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.how-to-take1 {
+  position: absolute;
+  top: 119px;
+  left: 360px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: rgba(23, 28, 57, 0.91);
+  display: inline-block;
+  width: 559px;
+  height: 84px;
+}
+.blog-1-page-item {
+  position: absolute;
+  height: 30.49%;
+  width: 100%;
+  top: 42.67%;
+  right: 0;
+  bottom: 26.84%;
+  left: 0;
+  background-color: var(--color-aliceblue-100);
+}
+.dr-ananya-mehta {
+  position: absolute;
+  top: 875px;
+  left: 104px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.03em;
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+  width: 1016px;
+  height: 19px;
+}
+.reviewline5 {
+  position: absolute;
+  top: 902.5px;
+  left: 103px;
+  border-top: 2px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 1018px;
+  height: 2px;
+}
+.ensuring-your-childs {
+  margin: 0;
+}
+.ensuring-your-childs-container {
+  position: absolute;
+  top: 935px;
+  left: 108px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  text-align: justify;
+  display: inline-block;
+  width: 1012px;
+  height: 429px;
+}
+.footerbg2,
+.medprompt4 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.footerbg2 {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lavender-400);
+}
+.medprompt4 {
+  width: 83.16%;
+  left: 16.84%;
+  font-weight: 800;
+  display: inline-block;
+}
+.logopic-icon4 {
+  position: absolute;
+  height: 67.98%;
+  width: 11.23%;
+  top: 23.1%;
+  right: 88.77%;
+  bottom: 8.92%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerlogo2 {
+  position: absolute;
+  height: 18.41%;
+  width: 86.83%;
+  top: 0;
+  right: 0.47%;
+  bottom: 81.59%;
+  left: 12.69%;
+}
+.your-trusted-platform2 {
+  position: absolute;
+  height: 58.94%;
+  width: 100%;
+  top: 41.06%;
+  left: 0;
+  font-size: var(--font-size-mini);
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.footerabout2 {
+  position: absolute;
+  height: 40.83%;
+  width: 24.68%;
+  top: 10.26%;
+  right: 65.59%;
+  bottom: 48.92%;
+  left: 9.73%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.medprompt-20242 {
+  position: absolute;
+  height: 3.75%;
+  width: 22.34%;
+  top: 87.18%;
+  left: 39.88%;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+}
+.quick-links5 {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.quick-links4 {
+  position: absolute;
+  height: 6.31%;
+  width: 8.68%;
+  top: 11.44%;
+  left: 51.05%;
+  line-height: 32px;
+  display: inline-block;
+}
+.connect-with-us8,
+.quick-links4 {
+  font-weight: 600;
+}
+.connect-with-us7 {
+  line-height: 24px;
+}
+.blank-line24 {
+  margin: 0;
+  font-size: var(--font-size-mini);
+}
+.supportmedpromptcom5 {
+  line-height: 20px;
+}
+.connect-with-us-container2 {
+  position: absolute;
+  height: 49.9%;
+  width: 18.49%;
+  top: 12.23%;
+  left: 72.51%;
+  display: inline-block;
+}
+.instaicon2 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ins2,
+.insta2,
+.instaicon2 {
+  position: absolute;
+}
+.ins2 {
+  top: 0;
+  left: -6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.insta2 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 81.72%;
+  bottom: 41.81%;
+  left: 16.63%;
+}
+
+.about9 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.about9:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.doctors8 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.doctors8:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.services9 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.services9:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.blogs4 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.blogs4:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.testimonials6 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.testimonials6:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.facebook2:hover,
+.insta2,
+.insta2:hover,
+.linkedin2:hover,
+.x4:hover {
+  cursor: pointer;
+}
+.x5 {
+  top: 0;
+  left: -3.8px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 23.7px;
+  height: 23px;
+}
+.fb2,
+.x4,
+.x5 {
+  position: absolute;
+}
+.x4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 84.77%;
+  bottom: 41.22%;
+  left: 13.32%;
+}
+.fb2 {
+  top: 0;
+  left: -2.6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.facebook2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 88.09%;
+  bottom: 41.22%;
+  left: 10.01%;
+}
+.facebook2,
+.ld2,
+.linkedin2 {
+  position: absolute;
+}
+.ld2 {
+  top: 0;
+  left: -7.1px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.linkedin2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 78.66%;
+  bottom: 41.81%;
+  left: 19.69%;
+}
+.about10 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.about9,
+.blogs4,
+.doctors8,
+.services9,
+.testimonials6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.11%;
+  width: 3.94%;
+  top: 21.89%;
+  right: 45.02%;
+  bottom: 71.99%;
+  left: 51.05%;
+}
+.blogs4,
+.doctors8,
+.services9,
+.testimonials6 {
+  width: 5.55%;
+  top: 29.39%;
+  right: 43.41%;
+  bottom: 64.5%;
+}
+.blogs4,
+.doctors8,
+.testimonials6 {
+  width: 4.98%;
+  top: 37.48%;
+  right: 43.97%;
+  bottom: 56.41%;
+}
+.blogs4,
+.testimonials6 {
+  width: 7.72%;
+  top: 44.97%;
+  right: 41.23%;
+  bottom: 48.92%;
+}
+.blogs4 {
+  height: 5.92%;
+  width: 3.94%;
+  top: 53.06%;
+  right: 44.77%;
+  bottom: 41.03%;
+  left: 51.29%;
+}
+.footer2 {
+  position: absolute;
+  height: 26.84%;
+  width: 100%;
+  top: 73.16%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: justify;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.menusectionbg2 {
+  background-color: var(--color-aliceblue-200);
+}
+.menubtnsection2,
+.menubtnsectionbg2,
+.menusectionbg2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.menubtnsection2 {
+  width: 68.44%;
+  left: 31.56%;
+}
+.logosectionbg2,
+.medprompt5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 304.3px;
+  height: 93px;
+}
+.medprompt5 {
+  top: 32.7px;
+  left: 75.9px;
+  font-weight: 800;
+  display: inline-block;
+  width: 242.8px;
+  height: 37.7px;
+}
+.logopic-icon5 {
+  position: absolute;
+  top: 39.4px;
+  left: 34.4px;
+  width: 32px;
+  height: 27px;
+}
+.home6,
+.logosection2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 318.7px;
+  height: 93px;
+}
+.home6 {
+  height: 100%;
+  width: 100%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.about11,
+.blog5,
+.doctors10,
+.home5,
+.services11,
+.testimonial4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 18px;
+  width: 52px;
+  position: relative;
+}
+.home5:hover {
+  mix-blend-mode: normal;
+}
+.about11,
+.blog5,
+.doctors10,
+.services11,
+.testimonial4 {
+  cursor: default;
+  width: 55px;
+}
+.about11:hover,
+.blog5:hover,
+.doctors10:hover,
+.home5:hover,
+.services11:hover,
+.testimonial4:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.blog5,
+.doctors10,
+.services11,
+.testimonial4 {
+  width: 77px;
+}
+.blog5,
+.doctors10,
+.testimonial4 {
+  cursor: pointer;
+  width: 72px;
+}
+.blog5,
+.testimonial4 {
+  width: 102px;
+}
+.blog5 {
+  width: 40px;
+  height: 23px;
+}
+.appointmentbg2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-slateblue-100);
+}
+.appointmenttext2 {
+  position: absolute;
+  height: 47.7%;
+  width: 93.21%;
+  top: 26.95%;
+  left: 4.39%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.appointment2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 175.2px;
+  position: relative;
+  height: 50.1px;
+}
+.appointment2:hover {
+  box-shadow: 0 10px 4px #d8d8df;
+  cursor: pointer;
+}
+.home-container {
+  position: absolute;
+  top: 28px;
+  right: 54px;
+  width: 804px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.blog-1-page,
+.navbar2 {
+  width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.navbar2 {
+  margin: 0;
+  position: sticky;
+  height: calc(100% - 1793px);
+  top: 0;
+  right: 0;
+  bottom: 1793px;
+  left: 0;
+  text-align: left;
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.blog-1-page {
+  position: relative;
+  height: 1889px;
+  overflow: hidden;
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

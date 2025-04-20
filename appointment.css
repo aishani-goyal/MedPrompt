@@ -1,0 +1,962 @@
+.name-field {
+    border: 2px solid var(--color-black);
+    outline: 0;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-lg);
+    background-color: transparent;
+    position: absolute;
+    top: 324px;
+    left: 69px;
+    border-radius: var(--br-8xs);
+    box-sizing: border-box;
+    width: 261px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-6xl);
+    color: var(--color-gray-300);
+}
+
+.appointment-image-icon {
+    position: absolute;
+    height: calc(100% - 829px);
+    top: 209px;
+    right: 95px;
+    bottom: 620px;
+    border-radius: var(--br-6xs);
+    max-height: 100%;
+    width: 523px;
+    object-fit: cover;
+}
+
+.email-address-field {
+    border: 2px solid var(--color-black);
+    outline: 0;
+    font-size: var(--font-size-lg);
+    background-color: transparent;
+    position: absolute;
+    top: 324px;
+    left: 361px;
+    border-radius: var(--br-8xs);
+    box-sizing: border-box;
+    width: 261px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-6xl);
+    color: var(--color-gray-300);
+}
+
+.email-address-field,
+.phone-no-field,
+.submit {
+    font-weight: 500;
+    font-family: var(--font-inter);
+}
+
+.phone-no-field {
+    border: 2px solid var(--color-black);
+    outline: 0;
+    font-size: var(--font-size-lg);
+    background-color: transparent;
+    position: absolute;
+    top: 450px;
+    left: 69px;
+    border-radius: var(--br-8xs);
+    box-sizing: border-box;
+    width: 261px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-6xl);
+    color: var(--color-gray-300);
+}
+
+.submit {
+    position: relative;
+    font-size: var(--font-size-3xl);
+    color: var(--color-black);
+    text-align: left;
+}
+
+.submit-field {
+    border: 2px solid var(--color-black);
+    padding: var(--padding-3xs);
+    background-color: rgba(212, 205, 243, 0.83);
+    position: absolute;
+    top: 684px;
+    left: 246px;
+    border-radius: var(--br-6xs);
+    box-sizing: border-box;
+    width: 197px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about42:hover,
+.doctors40:hover,
+.facebook10:hover,
+.insta10:hover,
+.linkedin10:hover,
+.services43:hover,
+.submit-field,
+.submit-field:hover,
+.testimonials30:hover,
+.x20:hover {
+    cursor: pointer;
+}
+
+.book-an-appointment {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+}
+
+.book-an-appointment-wrapper {
+    position: absolute;
+    top: 192px;
+    left: 69px;
+    width: 563px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-13xl);
+}
+
+.doctor-dropdown-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-gainsboro-100);
+}
+
+.dr-ananya-sharma {
+    position: relative;
+    font-weight: 500;
+}
+
+.dr-ananya-sharma-wrapper {
+    top: -0.07%;
+    bottom: 87.39%;
+    border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+}
+
+.dr-amit-verma-wrapper,
+.dr-ananya-sharma-wrapper,
+.dr-anjali-mehra-wrapper,
+.dr-arjun-shah-wrapper,
+.dr-rakesh-gupta-wrapper,
+.dr-vikram-singhania-wrapper {
+    position: absolute;
+    height: 12.68%;
+    width: 100.2%;
+    right: -0.12%;
+    left: -0.08%;
+    border: 0.5px solid var(--color-black);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xl);
+}
+
+.dr-amit-verma-wrapper {
+    top: 87.43%;
+    bottom: -0.11%;
+    border-radius: 0 0 var(--br-8xs) var(--br-8xs);
+}
+
+.dr-anjali-mehra-wrapper,
+.dr-arjun-shah-wrapper,
+.dr-rakesh-gupta-wrapper,
+.dr-vikram-singhania-wrapper {
+    top: 62.43%;
+    bottom: 24.89%;
+}
+
+.dr-arjun-shah-wrapper,
+.dr-rakesh-gupta-wrapper,
+.dr-vikram-singhania-wrapper {
+    top: 74.93%;
+    bottom: 12.39%;
+}
+
+.dr-rakesh-gupta-wrapper,
+.dr-vikram-singhania-wrapper {
+    top: 49.93%;
+    bottom: 37.39%;
+}
+
+.dr-vikram-singhania-wrapper {
+    top: 37.43%;
+    bottom: 49.89%;
+}
+
+.dr-priya-sen {
+    position: relative;
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+.dr-aarav-sinha-wrapper,
+.dr-priya-sen-wrapper {
+    position: absolute;
+    height: 12.68%;
+    width: 100.2%;
+    top: 24.93%;
+    right: -0.12%;
+    bottom: 62.39%;
+    left: -0.08%;
+    border: 0.5px solid var(--color-black);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xl);
+}
+
+.dr-aarav-sinha-wrapper {
+    top: 12.43%;
+    bottom: 74.89%;
+}
+
+.doctor-dropdown {
+    position: absolute;
+    height: 18.94%;
+    width: 19.45%;
+    top: 45.13%;
+    right: 74.2%;
+    bottom: 35.93%;
+    left: 6.35%;
+    display: none;
+}
+
+.dr-ananya-sharma-container {
+    top: -0.07%;
+    bottom: 87.39%;
+    border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+}
+
+.dr-aarav-sinha-container,
+.dr-amit-verma-container,
+.dr-ananya-sharma-container,
+.dr-anjali-mehra-container,
+.dr-arjun-shah-container,
+.dr-priya-sen-container,
+.dr-rakesh-gupta-container,
+.dr-vikram-singhania-container {
+    position: absolute;
+    height: 12.68%;
+    width: 100.21%;
+    right: -0.12%;
+    left: -0.08%;
+    border: 0.5px solid var(--color-black);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xl);
+}
+
+.dr-amit-verma-container {
+    top: 87.43%;
+    bottom: -0.11%;
+    border-radius: 0 0 var(--br-8xs) var(--br-8xs);
+}
+
+.dr-aarav-sinha-container,
+.dr-anjali-mehra-container,
+.dr-arjun-shah-container,
+.dr-priya-sen-container,
+.dr-rakesh-gupta-container,
+.dr-vikram-singhania-container {
+    top: 62.43%;
+    bottom: 24.89%;
+}
+
+.dr-aarav-sinha-container,
+.dr-arjun-shah-container,
+.dr-priya-sen-container,
+.dr-rakesh-gupta-container,
+.dr-vikram-singhania-container {
+    top: 74.93%;
+    bottom: 12.39%;
+}
+
+.dr-aarav-sinha-container,
+.dr-priya-sen-container,
+.dr-rakesh-gupta-container,
+.dr-vikram-singhania-container {
+    top: 49.93%;
+    bottom: 37.39%;
+}
+
+.dr-aarav-sinha-container,
+.dr-priya-sen-container,
+.dr-vikram-singhania-container {
+    top: 37.43%;
+    bottom: 49.89%;
+}
+
+.dr-aarav-sinha-container,
+.dr-priya-sen-container {
+    top: 24.93%;
+    bottom: 62.39%;
+}
+
+.dr-aarav-sinha-container {
+    top: 12.43%;
+    bottom: 74.89%;
+}
+
+.doctor-dropdown1 {
+    position: absolute;
+    height: 78.61%;
+    width: 92.72%;
+    top: 21.39%;
+    right: 3.45%;
+    bottom: 0;
+    left: 3.83%;
+    display: none;
+}
+
+.doc-field {
+    border: 2px solid var(--color-black);
+    outline: 0;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-lg);
+    background-color: transparent;
+    position: absolute;
+    height: 15.9%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 84.1%;
+    left: 0;
+    border-radius: var(--br-8xs);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-xl);
+    color: var(--color-gray-300);
+}
+
+.doctor-selection-component {
+    position: absolute;
+    top: 574px;
+    left: 69px;
+    width: 261px;
+    height: 346px;
+}
+
+.date-appoint-field,
+.service-selection {
+    position: absolute;
+    left: 361px;
+    width: 261px;
+}
+
+.date-appoint-field {
+    border: 2px solid var(--color-black);
+    outline: 0;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-lg);
+    background-color: transparent;
+    top: 450px;
+    border-radius: var(--br-8xs);
+    box-sizing: border-box;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-xl);
+    color: var(--color-gray-300);
+}
+
+.service-selection {
+    top: 574px;
+    height: 346px;
+}
+
+.footerbg10,
+.medprompt20 {
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+
+.footerbg10 {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-lavender-400);
+}
+
+.medprompt20 {
+    width: 83.16%;
+    left: 16.84%;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.logopic-icon20 {
+    position: absolute;
+    height: 67.98%;
+    width: 11.23%;
+    top: 23.1%;
+    right: 88.77%;
+    bottom: 8.92%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.footerlogo10 {
+    position: absolute;
+    height: 18.41%;
+    width: 86.83%;
+    top: 0;
+    right: 0.47%;
+    bottom: 81.59%;
+    left: 12.69%;
+}
+
+.your-trusted-platform10 {
+    position: absolute;
+    height: 58.94%;
+    width: 100%;
+    top: 41.06%;
+    left: 0;
+    font-size: var(--font-size-mini);
+    line-height: 24px;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: justify;
+    display: inline-block;
+}
+
+.footerabout10 {
+    position: absolute;
+    height: 40.83%;
+    width: 24.68%;
+    top: 10.26%;
+    right: 65.59%;
+    bottom: 48.92%;
+    left: 9.73%;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-slateblue-100);
+    font-family: var(--font-lato);
+}
+
+.medprompt-202410 {
+    position: absolute;
+    height: 3.75%;
+    width: 22.34%;
+    top: 87.18%;
+    left: 39.88%;
+    font-size: var(--font-size-sm);
+    line-height: 22px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.quick-links21 {
+    margin-block-start: 0;
+    margin-block-end: 12px;
+}
+
+.quick-links20 {
+    position: absolute;
+    height: 6.31%;
+    width: 8.68%;
+    top: 11.44%;
+    left: 51.05%;
+    line-height: 32px;
+    display: inline-block;
+}
+
+.connect-with-us32,
+.quick-links20 {
+    font-weight: 600;
+}
+
+.connect-with-us31 {
+    line-height: 24px;
+}
+
+.connect-with-us30 {
+    margin: 0;
+}
+
+.blank-line98 {
+    margin: 0;
+    font-size: var(--font-size-mini);
+}
+
+.supportmedpromptcom21 {
+    line-height: 20px;
+}
+
+.connect-with-us-container10 {
+    position: absolute;
+    height: 49.9%;
+    width: 18.49%;
+    top: 12.23%;
+    left: 72.51%;
+    display: inline-block;
+}
+
+.instaicon10 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.ins10,
+.insta10,
+.instaicon10 {
+    position: absolute;
+}
+
+.ins10 {
+    top: 0;
+    left: -6px;
+    font-size: var(--font-size-mini);
+    text-decoration: underline;
+    line-height: 24px;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: justify;
+    display: none;
+    width: 20.6px;
+    height: 20px;
+}
+
+.insta10 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 3.94%;
+    width: 1.66%;
+    top: 54.24%;
+    right: 81.72%;
+    bottom: 41.81%;
+    left: 16.63%;
+}
+
+.x21 {
+    top: 0;
+    left: -3.8px;
+    font-size: var(--font-size-mini);
+    text-decoration: underline;
+    line-height: 24px;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: justify;
+    display: none;
+    width: 23.7px;
+    height: 23px;
+}
+
+.fb10,
+.x20,
+.x21 {
+    position: absolute;
+}
+
+.x20 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 4.54%;
+    width: 1.91%;
+    top: 54.24%;
+    right: 84.77%;
+    bottom: 41.22%;
+    left: 13.32%;
+}
+
+.fb10 {
+    top: 0;
+    left: -2.6px;
+    font-size: var(--font-size-mini);
+    text-decoration: underline;
+    line-height: 24px;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: justify;
+    display: none;
+    width: 20.6px;
+    height: 20px;
+}
+
+.facebook10 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 4.54%;
+    width: 1.91%;
+    top: 54.24%;
+    right: 88.09%;
+    bottom: 41.22%;
+    left: 10.01%;
+}
+
+.ld10 {
+    position: absolute;
+    top: 0;
+    left: -7.1px;
+    font-size: var(--font-size-mini);
+    text-decoration: underline;
+    line-height: 24px;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    text-align: justify;
+    display: none;
+    width: 20.6px;
+    height: 20px;
+}
+
+.linkedin10 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 3.94%;
+    width: 1.66%;
+    top: 54.24%;
+    right: 78.66%;
+    bottom: 41.81%;
+    left: 19.69%;
+}
+
+.about43 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-base);
+    line-height: 32px;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: justify;
+    display: inline-block;
+}
+
+.about42,
+.blogs20,
+.doctors40,
+.services43,
+.testimonials30 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 6.11%;
+    width: 3.94%;
+    top: 21.89%;
+    right: 45.02%;
+    bottom: 71.99%;
+    left: 51.05%;
+}
+
+.blogs20,
+.doctors40,
+.services43,
+.testimonials30 {
+    width: 5.55%;
+    top: 29.39%;
+    right: 43.41%;
+    bottom: 64.5%;
+}
+
+.blogs20,
+.doctors40,
+.testimonials30 {
+    width: 4.98%;
+    top: 37.48%;
+    right: 43.97%;
+    bottom: 56.41%;
+}
+
+.blogs20,
+.testimonials30 {
+    width: 7.72%;
+    top: 44.97%;
+    right: 41.23%;
+    bottom: 48.92%;
+}
+
+.blogs20 {
+    height: 5.92%;
+    width: 3.94%;
+    top: 53.06%;
+    right: 44.77%;
+    bottom: 41.03%;
+    left: 51.29%;
+}
+
+.footer10 {
+    position: absolute;
+    height: 35.31%;
+    width: 100%;
+    top: 64.69%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: justify;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+}
+
+.menusectionbg10 {
+    background-color: var(--color-aliceblue-200);
+}
+
+.menubtnsection10,
+.menubtnsectionbg10,
+.menusectionbg10 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.menubtnsection10 {
+    width: 68.59%;
+    left: 31.41%;
+}
+
+.logosectionbg10,
+.medprompt21 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 304.3px;
+    height: 93px;
+}
+
+.medprompt21 {
+    top: 32.7px;
+    left: 75.9px;
+    font-weight: 800;
+    display: inline-block;
+    width: 242.8px;
+    height: 37.7px;
+}
+
+.logopic-icon21 {
+    position: absolute;
+    top: 39.4px;
+    left: 34.4px;
+    width: 32px;
+    height: 27px;
+}
+
+.home22,
+.logosection10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 318.7px;
+    height: 93px;
+}
+
+.home22 {
+    height: 100%;
+    width: 100%;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+}
+
+.about44,
+.blog26,
+.doctors42,
+.home21,
+.services45,
+.testimonial20 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 18px;
+    width: 52px;
+    position: relative;
+}
+
+.home21:hover {
+    mix-blend-mode: normal;
+}
+
+.about44,
+.blog26,
+.doctors42,
+.services45,
+.testimonial20 {
+    cursor: default;
+    width: 55px;
+}
+
+.about44:hover,
+.blog26:hover,
+.doctors42:hover,
+.home21:hover,
+.services45:hover,
+.testimonial20:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.blog26,
+.doctors42,
+.services45,
+.testimonial20 {
+    width: 77px;
+}
+
+.blog26,
+.doctors42,
+.testimonial20 {
+    cursor: pointer;
+    width: 72px;
+}
+
+.blog26,
+.testimonial20 {
+    width: 102px;
+}
+
+.blog26 {
+    width: 40px;
+    height: 23px;
+}
+
+.appointmentbg10 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-3xs) var(--br-3xs) var(--br-5xs) var(--br-5xs);
+    background-color: var(--color-slateblue-100);
+}
+
+.appointmenttext10 {
+    position: absolute;
+    height: 47.7%;
+    width: 93.21%;
+    top: 26.95%;
+    left: 4.39%;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+}
+
+.appointment10 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 175.2px;
+    position: relative;
+    height: 50.1px;
+}
+
+.appointment10:hover {
+    box-shadow: 0 10px 4px #d8d8df;
+    cursor: pointer;
+}
+
+.home-parent7 {
+    position: absolute;
+    top: 28px;
+    right: 56px;
+    width: 802px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-16xl);
+}
+
+.navbar10 {
+    margin: 0;
+    position: sticky;
+    height: calc(100% - 1340px);
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 1340px;
+    left: 0;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-slateblue-100);
+    font-family: var(--font-lato);
+}
+
+.appointment-page {
+    width: 100%;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    height: 1436px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+}

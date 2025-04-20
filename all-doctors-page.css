@@ -1,0 +1,989 @@
+.team2-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lavender-700);
+}
+.our-experts {
+  position: absolute;
+  top: 30px;
+  left: 525.8px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  width: 242.8px;
+}
+.servicesline {
+  position: absolute;
+  top: 105px;
+  left: 108.1px;
+  border-top: 2px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 1062.8px;
+  height: 2px;
+}
+.team2 {
+  right: 0;
+  bottom: 0;
+  font-size: var(--font-size-13xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-red-hat-mono);
+}
+.expertbox1bg,
+.rated-47-stars,
+.team2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.expertbox1bg {
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-lavender-200);
+}
+.rated-47-stars {
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.rating1 {
+  position: absolute;
+  height: 5.23%;
+  width: 45.18%;
+  top: 19.16%;
+  right: 14.79%;
+  bottom: 75.61%;
+  left: 40.03%;
+  font-size: var(--font-size-5xs);
+}
+.cardiologist,
+.dr-atul-kasliwal {
+  position: absolute;
+  height: 5.92%;
+  width: 50.43%;
+  top: 5.92%;
+  left: 39.47%;
+  font-size: var(--font-size-xs);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.cardiologist {
+  height: 6.62%;
+  width: 26.3%;
+  top: 12.54%;
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+}
+.experience {
+  font-weight: 500;
+}
+.yrs {
+  font-family: var(--font-inter);
+}
+.experience-28-yrs {
+  margin-bottom: 0;
+}
+.span {
+  line-height: 20px;
+}
+.experience-28-yrs-qualificat {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-xs);
+}
+.mbbs-mdmedicine-sms-colleg {
+  margin: 0;
+}
+.timing {
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.experience-28-container,
+.location-eternal-container {
+  position: absolute;
+  height: 38.33%;
+  width: 91.22%;
+  top: 36.24%;
+  left: 2.94%;
+  display: inline-block;
+}
+.location-eternal-container {
+  height: 11.85%;
+  width: 91.65%;
+  top: 75.26%;
+  left: 3.07%;
+}
+.dratul-icon {
+  position: absolute;
+  top: 10px;
+  left: 6.9px;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+}
+.expertbox1 {
+  position: absolute;
+  height: 100%;
+  width: 22.14%;
+  top: 0;
+  right: 77.86%;
+  bottom: 0;
+  left: 0;
+}
+.expertbox1:hover {
+  cursor: default;
+}
+.dr-vikas-mittal,
+.general-physician,
+.rated-46-stars {
+  position: absolute;
+  height: 5.23%;
+  width: 45.18%;
+  top: 19.16%;
+  left: 40.54%;
+  font-size: var(--font-size-5xs);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.dr-vikas-mittal,
+.general-physician {
+  height: 6.62%;
+  width: 41.65%;
+  top: 5.92%;
+  left: 40.32%;
+  font-size: var(--font-size-xs);
+}
+.general-physician {
+  width: 37.3%;
+  top: 12.54%;
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+}
+.experience-23-container {
+  position: absolute;
+  height: 38.33%;
+  width: 89.05%;
+  top: 36.24%;
+  left: 3.45%;
+  display: inline-block;
+}
+.co-carewell-family {
+  line-height: 15px;
+}
+.location-co-container {
+  position: absolute;
+  height: 11.85%;
+  width: 86.4%;
+  top: 75.26%;
+  left: 3.45%;
+  display: inline-block;
+}
+.drvikas-icon {
+  position: absolute;
+  top: 10px;
+  left: 8.1px;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+}
+.expertbox2 {
+  position: absolute;
+  height: 100%;
+  width: 22.14%;
+  top: 0;
+  right: 51.75%;
+  bottom: 0;
+  left: 26.12%;
+}
+.dr-usha-m,
+.gynaecologist {
+  position: absolute;
+  height: 6.62%;
+  width: 52%;
+  top: 5.92%;
+  left: 39.77%;
+  font-size: var(--font-size-xs);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.gynaecologist {
+  width: 29.84%;
+  top: 12.54%;
+  left: 39.9%;
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+}
+.experience-31-container {
+  position: absolute;
+  height: 41.81%;
+  width: 92.92%;
+  top: 36.24%;
+  left: 3.11%;
+  display: inline-block;
+}
+.location-press-container,
+.rated-48-stars {
+  position: absolute;
+  height: 11.85%;
+  width: 91.65%;
+  top: 74.91%;
+  left: 3.54%;
+  line-height: 20px;
+  display: inline-block;
+}
+.rated-48-stars {
+  height: 5.23%;
+  width: 45.18%;
+  top: 19.16%;
+  left: 40.62%;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+}
+.drusha-icon {
+  position: absolute;
+  top: 10px;
+  left: 7.3px;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+}
+.expertbox3 {
+  position: absolute;
+  height: 100%;
+  width: 22.14%;
+  top: 0;
+  right: 25.53%;
+  bottom: 0;
+  left: 52.33%;
+}
+.dr-vikram-bohra {
+  position: absolute;
+  height: 6.62%;
+  width: 57.03%;
+  top: 5.92%;
+  left: 39.68%;
+  font-size: var(--font-size-xs);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.experience-19-container,
+.rated-48-stars1 {
+  position: absolute;
+  height: 39.72%;
+  width: 89.94%;
+  top: 36.24%;
+  left: 3.28%;
+  display: inline-block;
+}
+.rated-48-stars1 {
+  height: 5.23%;
+  width: 45.18%;
+  top: 19.16%;
+  left: 40.79%;
+  font-size: var(--font-size-5xs);
+  line-height: 20px;
+  font-weight: 500;
+}
+.drvikram-icon {
+  position: absolute;
+  top: 10px;
+  left: 7.7px;
+  width: 76px;
+  height: 76.3px;
+  object-fit: cover;
+}
+.docs4,
+.expertbox4 {
+  position: absolute;
+  height: 100%;
+  width: 22.14%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 77.86%;
+}
+.docs4 {
+  height: 32.61%;
+  width: 82.8%;
+  top: 20.68%;
+  right: 8.6%;
+  bottom: 46.7%;
+  left: 8.6%;
+}
+.dermatologist {
+  position: absolute;
+  height: 6.62%;
+  width: 34.95%;
+  top: 12.54%;
+  left: 39.64%;
+  font-size: var(--font-size-3xs);
+  line-height: 20px;
+  font-weight: 300;
+  display: inline-block;
+}
+.drrashmi-icon {
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+}
+.experience-15-container1 {
+  position: absolute;
+  width: 89.05%;
+  top: 36.24%;
+  left: 3.45%;
+  display: inline-block;
+}
+.drsanjay-icon {
+  position: absolute;
+  top: 10px;
+  left: 8.2px;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+}
+.experience-15-container2,
+.location-35162-container {
+  position: absolute;
+  height: 38.33%;
+  width: 92.92%;
+  top: 36.24%;
+  left: 3.15%;
+  display: inline-block;
+}
+.location-35162-container {
+  height: 11.85%;
+  width: 91.65%;
+  top: 74.91%;
+  left: 3.54%;
+}
+.drrajat-icon {
+  position: absolute;
+  top: 10px;
+  left: 8.4px;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+}
+.dental-care-specialist,
+.location-a-container {
+  position: absolute;
+  height: 11.85%;
+  width: 91.65%;
+  top: 69.69%;
+  left: 3.5%;
+  display: inline-block;
+}
+.dental-care-specialist {
+  height: 6.62%;
+  width: 47.74%;
+  top: 12.54%;
+  left: 39.56%;
+  font-size: var(--font-size-3xs);
+  line-height: 20px;
+  font-weight: 300;
+}
+.experience-15-container3 {
+  position: absolute;
+  height: 34.49%;
+  width: 89.94%;
+  top: 36.24%;
+  left: 3.32%;
+  display: inline-block;
+}
+.drprachi-icon {
+  position: absolute;
+  top: 10px;
+  left: 7.8px;
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+}
+.docs41,
+.experts-2 {
+  position: absolute;
+  height: 32.61%;
+  width: 82.8%;
+  top: 59.09%;
+  right: 8.61%;
+  bottom: 8.3%;
+  left: 8.59%;
+}
+.experts-2 {
+  height: 59.34%;
+  width: 100%;
+  top: 6.47%;
+  right: 0;
+  bottom: 34.19%;
+  left: 0;
+  background-color: var(--color-white);
+}
+.footerbg,
+.medprompt {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.footerbg {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lavender-400);
+}
+.medprompt {
+  width: 83.16%;
+  left: 16.84%;
+  font-weight: 800;
+  display: inline-block;
+}
+.logopic-icon {
+  position: absolute;
+  height: 67.98%;
+  width: 11.23%;
+  top: 23.1%;
+  right: 88.77%;
+  bottom: 8.92%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerlogo {
+  position: absolute;
+  height: 18.41%;
+  width: 86.83%;
+  top: 0;
+  right: 0.47%;
+  bottom: 81.59%;
+  left: 12.69%;
+}
+.your-trusted-platform {
+  position: absolute;
+  height: 58.94%;
+  width: 100%;
+  top: 41.06%;
+  left: 0;
+  font-size: var(--font-size-mini);
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.footerabout {
+  position: absolute;
+  height: 40.83%;
+  width: 24.68%;
+  top: 10.26%;
+  right: 65.59%;
+  bottom: 48.92%;
+  left: 9.73%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.medprompt-2024 {
+  position: absolute;
+  height: 3.75%;
+  width: 22.34%;
+  top: 87.18%;
+  left: 39.88%;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+}
+.quick-links1 {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.quick-links {
+  position: absolute;
+  height: 6.31%;
+  width: 8.68%;
+  top: 11.44%;
+  left: 51.05%;
+  line-height: 32px;
+  display: inline-block;
+}
+.connect-with-us2,
+.quick-links {
+  font-weight: 600;
+}
+.blank-line {
+  margin: 0;
+  font-size: var(--font-size-mini);
+}
+.medprompt-10th-floor {
+  line-height: 24px;
+}
+.connect-with-us-container {
+  position: absolute;
+  height: 49.9%;
+  width: 18.49%;
+  top: 12.23%;
+  left: 72.51%;
+  display: inline-block;
+}
+.ins,
+.instaicon {
+  position: absolute;
+  top: 0;
+}
+.instaicon {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ins {
+  left: -6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.insta {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 81.72%;
+  bottom: 41.81%;
+  left: 16.63%;
+}
+.about {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.about:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.doctors {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.doctors:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.services {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.services:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.blogs {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.blogs:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.testimonials {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.testimonials:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.facebook:hover,
+.insta,
+.insta:hover,
+.linkedin:hover,
+
+.x:hover {
+  cursor: pointer;
+}
+.insta,
+.x,
+.x1 {
+  position: absolute;
+}
+.x1 {
+  top: 0;
+  left: -3.8px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 23.7px;
+  height: 23px;
+}
+.x {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 84.77%;
+  bottom: 41.22%;
+  left: 13.32%;
+}
+.fb {
+  top: 0;
+  left: -2.6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.facebook,
+.fb,
+.ld {
+  position: absolute;
+}
+.facebook {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 88.09%;
+  bottom: 41.22%;
+  left: 10.01%;
+}
+.ld {
+  top: 0;
+  left: -7.1px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.linkedin {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 78.66%;
+  bottom: 41.81%;
+  left: 19.69%;
+}
+.about,
+.about1,
+.linkedin {
+  position: absolute;
+}
+.about1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.about {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 6.11%;
+  width: 3.94%;
+  top: 21.89%;
+  right: 45.02%;
+  bottom: 71.99%;
+  left: 51.05%;
+}
+.services {
+  position: absolute;
+  width: 5.55%;
+  top: 29.39%;
+  right: 43.41%;
+  bottom: 64.5%;
+}
+.doctors,
+.services,
+.testimonials {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 6.11%;
+  left: 51.05%;
+}
+.doctors {
+  position: absolute;
+  width: 4.98%;
+  top: 37.48%;
+  right: 43.97%;
+  bottom: 56.41%;
+}
+.testimonials {
+  width: 7.72%;
+  top: 44.97%;
+  right: 41.23%;
+  bottom: 48.92%;
+}
+.blogs,
+.footer,
+.testimonials {
+  position: absolute;
+}
+.blogs {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 5.92%;
+  width: 3.94%;
+  top: 53.06%;
+  right: 44.77%;
+  bottom: 41.03%;
+  left: 51.29%;
+}
+.footer {
+  height: 34.19%;
+  width: 100%;
+  top: 65.81%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: justify;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.menusectionbg {
+  background-color: var(--color-aliceblue-200);
+}
+.menubtnsection,
+.menubtnsectionbg,
+.menusectionbg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.menubtnsection {
+  width: 67.03%;
+  left: 32.97%;
+}
+.logosectionbg,
+.medprompt1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 304.3px;
+  height: 93px;
+}
+.medprompt1 {
+  top: 32.7px;
+  left: 75.9px;
+  font-weight: 800;
+  display: inline-block;
+  width: 242.8px;
+  height: 37.7px;
+}
+.logopic-icon1 {
+  position: absolute;
+  top: 39.4px;
+  left: 34.4px;
+  width: 32px;
+  height: 27px;
+}
+.home1,
+.logosection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 318.7px;
+  height: 93px;
+}
+.home1 {
+  height: 100%;
+  width: 100%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.about2,
+.blog,
+.doctors2,
+.home,
+.services2,
+.testimonial {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 18px;
+  width: 52px;
+  position: relative;
+}
+.home:hover {
+  mix-blend-mode: normal;
+}
+.about2,
+.blog,
+.doctors2,
+.services2,
+.testimonial {
+  cursor: default;
+  width: 55px;
+}
+.about2:hover,
+.blog:hover,
+.doctors2:hover,
+.home:hover,
+.services2:hover,
+.testimonial:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.blog,
+.doctors2,
+.services2,
+.testimonial {
+  width: 77px;
+}
+.blog,
+.doctors2,
+.testimonial {
+  cursor: pointer;
+  width: 72px;
+}
+.blog,
+.testimonial {
+  width: 102px;
+}
+.blog {
+  width: 40px;
+  height: 23px;
+}
+.appointmentbg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-slateblue-100);
+}
+.appointmenttext {
+  position: absolute;
+  height: 47.7%;
+  width: 93.21%;
+  top: 26.95%;
+  left: 4.39%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.appointment {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 175.2px;
+  position: relative;
+  height: 50.1px;
+}
+.appointment:hover {
+  box-shadow: 0 10px 4px #d8d8df;
+  cursor: pointer;
+}
+.home-parent {
+  position: absolute;
+  top: 28px;
+  right: 58px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.navbar {
+  margin: 0;
+  position: absolute;
+  height: calc(100% - 1387px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 1387px;
+  left: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.all-doctors-page {
+  width: 100%;
+  position: relative;
+  height: 1483px;
+  text-align: left;
+  font-size: var(--font-size-4xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

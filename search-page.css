@@ -1,0 +1,745 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+.menusectionbg {
+  background-color: var(--color-aliceblue-200);
+}
+.menubtnsection,
+.menubtnsectionbg,
+.menusectionbg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.menubtnsection {
+  width: 67.03%;
+  left: 32.97%;
+}
+.logosectionbg,
+.medprompt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 304.3px;
+  height: 93px;
+}
+.medprompt {
+  top: 32.7px;
+  left: 75.9px;
+  font-weight: 800;
+  display: inline-block;
+  width: 242.8px;
+  height: 37.7px;
+}
+.logopic-icon {
+  position: absolute;
+  top: 39.4px;
+  left: 34.4px;
+  width: 32px;
+  height: 27px;
+}
+.home1,
+.logosection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 318.7px;
+  height: 93px;
+}
+.home1 {
+  height: 100%;
+  width: 100%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.about,
+.blog,
+.doctors,
+.home,
+.services,
+.testimonial {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 18px;
+  width: 52px;
+  position: relative;
+}
+.home:hover {
+  mix-blend-mode: normal;
+}
+.about,
+.blog,
+.doctors,
+.services,
+.testimonial {
+  cursor: default;
+  width: 55px;
+}
+.about:hover,
+.blog:hover,
+.doctors:hover,
+.home:hover,
+.services:hover,
+.testimonial:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.blog,
+.doctors,
+.services,
+.testimonial {
+  width: 77px;
+}
+.blog,
+.doctors,
+.testimonial {
+  cursor: pointer;
+  width: 72px;
+}
+.blog,
+.testimonial {
+  width: 102px;
+}
+.blog {
+  width: 40px;
+  height: 23px;
+}
+.appointmentbg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-slateblue-100);
+}
+.appointmenttext {
+  position: absolute;
+  height: 47.7%;
+  width: 93.21%;
+  top: 26.95%;
+  left: 4.39%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.appointment {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 175.2px;
+  position: relative;
+  height: 50.1px;
+}
+.appointment:hover {
+  box-shadow: 0 10px 4px #d8d8df;
+  cursor: pointer;
+}
+.home-parent {
+  position: absolute;
+  top: 28px;
+  right: 58px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.doctors-matching-your,
+.navbar {
+  position: absolute;
+  top: 0;
+  font-size: var(--font-size-13xl);
+}
+.navbar {
+  margin: 0;
+  height: calc(100% - 1365px);
+  width: 100%;
+  right: 0;
+  bottom: 1365px;
+  left: 0;
+  text-align: left;
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.doctors-matching-your {
+  left: 225px;
+  display: inline-block;
+  width: 639px;
+  height: 55px;
+}
+.expertbox1bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-lavender-200);
+}
+.docimg1 {
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  width: 76px;
+  height: 76px;
+}
+.doctornamedoc1,
+.ratingdoc1,
+.specialitydoc1 {
+  position: absolute;
+  height: 5.92%;
+  width: 50.43%;
+  top: 5.92%;
+  left: 39.47%;
+  font-size: var(--font-size-xs);
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.ratingdoc1,
+.specialitydoc1 {
+  height: 6.62%;
+  width: 37.08%;
+  top: 12.54%;
+  left: 39.64%;
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+}
+.ratingdoc1 {
+  height: 5.23%;
+  width: 45.18%;
+  top: 19.16%;
+  left: 40.03%;
+  font-size: var(--font-size-5xs);
+  font-weight: 500;
+}
+.contactdoc1,
+.experiencedoc1,
+.locationdoc1,
+.qualificationdoc1,
+.timingdoc1 {
+  position: absolute;
+  top: 110px;
+  left: 26px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 136px;
+  height: 19px;
+}
+
+.experiencedoc1{
+  position: absolute;
+    top: 100px;
+    /* Adjust this value to move it upwards */
+    left: 26px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 136px;
+    height: 19px;
+
+}
+
+.qualificationdoc1
+{
+  top: 123px;
+  width: 174px;
+  height: 27px;
+}
+.contactdoc1,
+.locationdoc1,
+.timingdoc1 {
+  top: 165px;
+  width: 136px;
+  height: 19px;
+}
+
+.contactdoc1
+{
+  top: 197px;
+}
+.locationdoc1 {
+  top: 225px;
+  width: 174px;
+  height: 47px;
+}
+.expertbox1 {
+  position: absolute;
+  height: 38.73%;
+  width: 21.97%;
+  top: 16.73%;
+  right: 78.03%;
+  bottom: 44.53%;
+  left: 0;
+}
+.expertbox1:hover,
+.expertbox2:hover,
+.expertbox3:hover,
+.expertbox4:hover,
+.expertbox5:hover,
+.expertbox6:hover,
+.expertbox7:hover,
+.expertbox8:hover {
+  cursor: pointer;
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.specialitydoc2 {
+  position: absolute;
+  height: 6.62%;
+  width: 38.79%;
+  top: 12.54%;
+  left: 39.64%;
+  font-size: var(--font-size-3xs);
+  line-height: 20px;
+  font-weight: 300;
+  display: inline-block;
+}
+.expertbox2 {
+  position: absolute;
+  height: 38.73%;
+  width: 21.97%;
+  top: 16.73%;
+  right: 52.08%;
+  bottom: 44.53%;
+  left: 25.95%;
+}
+.specialitydoc3 {
+  position: absolute;
+  height: 6.62%;
+  width: 35.81%;
+  top: 12.54%;
+  left: 39.64%;
+  font-size: var(--font-size-3xs);
+  line-height: 20px;
+  font-weight: 300;
+  display: inline-block;
+}
+.expertbox3 {
+  position: absolute;
+  height: 38.73%;
+  width: 21.97%;
+  top: 16.73%;
+  right: 26.04%;
+  bottom: 44.53%;
+  left: 51.99%;
+}
+.specialitydoc4 {
+  position: absolute;
+  height: 6.62%;
+  width: 37.51%;
+  top: 12.54%;
+  left: 39.64%;
+  font-size: var(--font-size-3xs);
+  line-height: 20px;
+  font-weight: 300;
+  display: inline-block;
+}
+.expertbox4 {
+  position: absolute;
+  height: 38.73%;
+  width: 21.97%;
+  top: 16.73%;
+  right: 0;
+  bottom: 44.53%;
+  left: 78.03%;
+}
+.expertbox5,
+.expertbox6,
+.expertbox7,
+.expertbox8 {
+  position: absolute;
+  height: 38.73%;
+  width: 21.97%;
+  top: 61.27%;
+  right: 78.03%;
+  bottom: 0;
+  left: 0;
+}
+.expertbox6,
+.expertbox7,
+.expertbox8 {
+  right: 52.08%;
+  left: 25.95%;
+}
+.expertbox7,
+.expertbox8 {
+  right: 26.04%;
+  left: 51.99%;
+}
+.expertbox8 {
+  right: 0;
+  left: 78.03%;
+}
+.searchsection {
+  position: absolute;
+  top: 158px;
+  left: 103px;
+  width: 1067.6px;
+  height: 741px;
+}
+.footerbg,
+.medprompt1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.footerbg {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lavender-400);
+}
+.medprompt1 {
+  width: 83.16%;
+  left: 16.84%;
+  font-weight: 800;
+  display: inline-block;
+}
+.logopic-icon1 {
+  position: absolute;
+  height: 67.98%;
+  width: 11.23%;
+  top: 23.1%;
+  right: 88.77%;
+  bottom: 8.92%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerlogo {
+  position: absolute;
+  height: 18.41%;
+  width: 86.83%;
+  top: 0;
+  right: 0.47%;
+  bottom: 81.59%;
+  left: 12.69%;
+}
+.your-trusted-platform {
+  position: absolute;
+  height: 58.94%;
+  width: 100%;
+  top: 41.06%;
+  left: 0;
+  font-size: var(--font-size-mini);
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.footerabout {
+  position: absolute;
+  height: 40.83%;
+  width: 24.68%;
+  top: 10.26%;
+  right: 65.59%;
+  bottom: 48.92%;
+  left: 9.73%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.medprompt-2024 {
+  position: absolute;
+  height: 3.75%;
+  width: 22.34%;
+  top: 87.18%;
+  left: 39.88%;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+}
+.quick-links1 {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.quick-links {
+  position: absolute;
+  height: 6.31%;
+  width: 8.68%;
+  top: 11.44%;
+  left: 51.05%;
+  line-height: 32px;
+  display: inline-block;
+}
+.connect-with-us2,
+.quick-links {
+  font-weight: 600;
+}
+.connect-with-us {
+  margin: 0;
+}
+.blank-line {
+  margin: 0;
+  font-size: var(--font-size-mini);
+}
+.medprompt-10th-floor {
+  line-height: 24px;
+}
+.supportmedpromptcom1 {
+  line-height: 20px;
+}
+.connect-with-us-container {
+  position: absolute;
+  height: 49.9%;
+  width: 18.49%;
+  top: 12.23%;
+  left: 72.51%;
+  display: inline-block;
+}
+.instaicon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ins,
+.insta,
+.instaicon {
+  position: absolute;
+}
+.ins {
+  top: 0;
+  left: -6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.insta {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 81.72%;
+  bottom: 41.81%;
+  left: 16.63%;
+}
+.about2:hover,
+.doctors2:hover,
+.facebook:hover,
+.insta,
+.insta:hover,
+.linkedin:hover,
+.services2:hover,
+.testimonials:hover,
+.x:hover {
+  cursor: pointer;
+}
+.x1 {
+  top: 0;
+  left: -3.8px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 23.7px;
+  height: 23px;
+}
+.fb,
+.x,
+.x1 {
+  position: absolute;
+}
+.x {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 84.77%;
+  bottom: 41.22%;
+  left: 13.32%;
+}
+.fb {
+  top: 0;
+  left: -2.6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.facebook {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 88.09%;
+  bottom: 41.22%;
+  left: 10.01%;
+}
+.facebook,
+.ld,
+.linkedin {
+  position: absolute;
+}
+.ld {
+  top: 0;
+  left: -7.1px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.linkedin {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 78.66%;
+  bottom: 41.81%;
+  left: 19.69%;
+}
+.about3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.about2,
+.blogs,
+.doctors2,
+.services2,
+.testimonials {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.11%;
+  width: 3.94%;
+  top: 21.89%;
+  right: 45.02%;
+  bottom: 71.99%;
+  left: 51.05%;
+}
+.blogs,
+.doctors2,
+.services2,
+.testimonials {
+  width: 5.55%;
+  top: 29.39%;
+  right: 43.41%;
+  bottom: 64.5%;
+}
+.blogs,
+.doctors2,
+.testimonials {
+  width: 4.98%;
+  top: 37.48%;
+  right: 43.97%;
+  bottom: 56.41%;
+}
+.blogs,
+.testimonials {
+  width: 7.72%;
+  top: 44.97%;
+  right: 41.23%;
+  bottom: 48.92%;
+}
+.blogs {
+  height: 5.92%;
+  width: 3.94%;
+  top: 53.06%;
+  right: 44.77%;
+  bottom: 41.03%;
+  left: 51.29%;
+}
+.footer,
+.search-page {
+  width: 100%;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.footer {
+  position: absolute;
+  height: 34.7%;
+  top: 65.3%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: justify;
+  font-size: var(--font-size-lg);
+}
+.search-page {
+  position: relative;
+  background-color: var(--color-white);
+  height: 1461px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-4xs);
+}

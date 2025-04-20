@@ -1,0 +1,1105 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+.footerbg8,
+.medprompt16 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.footerbg8 {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lavender-400);
+}
+.medprompt16 {
+  width: 83.16%;
+  left: 16.84%;
+  font-weight: 800;
+  display: inline-block;
+}
+.logopic-icon16 {
+  position: absolute;
+  height: 67.98%;
+  width: 11.23%;
+  top: 23.1%;
+  right: 88.77%;
+  bottom: 8.92%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerlogo8 {
+  position: absolute;
+  height: 18.41%;
+  width: 86.83%;
+  top: 0;
+  right: 0.47%;
+  bottom: 81.59%;
+  left: 12.69%;
+}
+.your-trusted-platform8 {
+  position: absolute;
+  height: 58.94%;
+  width: 100%;
+  top: 41.06%;
+  left: 0;
+  font-size: var(--font-size-mini);
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.footerabout8 {
+  position: absolute;
+  height: 40.83%;
+  width: 24.68%;
+  top: 10.26%;
+  right: 65.59%;
+  bottom: 48.92%;
+  left: 9.73%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.medprompt-20248 {
+  position: absolute;
+  height: 3.75%;
+  width: 22.34%;
+  top: 87.18%;
+  left: 39.88%;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+}
+.quick-links17 {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.quick-links16 {
+  position: absolute;
+  height: 6.31%;
+  width: 8.68%;
+  top: 11.44%;
+  left: 51.05%;
+  line-height: 32px;
+  display: inline-block;
+}
+.connect-with-us26,
+.quick-links16 {
+  font-weight: 600;
+}
+.connect-with-us25 {
+  line-height: 24px;
+}
+.connect-with-us24 {
+  margin: 0;
+}
+.blank-line80 {
+  margin: 0;
+  font-size: var(--font-size-mini);
+}
+.supportmedpromptcom17 {
+  line-height: 20px;
+}
+.connect-with-us-container8 {
+  position: absolute;
+  height: 49.9%;
+  width: 18.49%;
+  top: 12.23%;
+  left: 72.51%;
+  display: inline-block;
+}
+.instaicon8 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ins8,
+.insta8,
+.instaicon8 {
+  position: absolute;
+}
+.ins8 {
+  top: 0;
+  left: -6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.insta8 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 81.72%;
+  bottom: 41.81%;
+  left: 16.63%;
+}
+
+.about34 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.about34:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.doctors32 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.doctors32:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.services35 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.services35:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.blogs16 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.blogs16:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.testimonials24 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.testimonials24:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.facebook8:hover,
+.insta8,
+.insta8:hover,
+.linkedin8:hover,
+.read-more-b14:hover,
+.read-more-b24:hover,
+.read-more-b34:hover,
+.x16:hover {
+  cursor: pointer;
+}
+.x17 {
+  top: 0;
+  left: -3.8px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 23.7px;
+  height: 23px;
+}
+.fb8,
+.x16,
+.x17 {
+  position: absolute;
+}
+.x16 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 84.77%;
+  bottom: 41.22%;
+  left: 13.32%;
+}
+.fb8 {
+  top: 0;
+  left: -2.6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.facebook8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 88.09%;
+  bottom: 41.22%;
+  left: 10.01%;
+}
+.facebook8,
+.ld8,
+.linkedin8 {
+  position: absolute;
+}
+.ld8 {
+  top: 0;
+  left: -7.1px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.linkedin8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 78.66%;
+  bottom: 41.81%;
+  left: 19.69%;
+}
+.about35 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.about34,
+.blogs16,
+.doctors32,
+.services35,
+.testimonials24 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.11%;
+  width: 3.94%;
+  top: 21.89%;
+  right: 45.02%;
+  bottom: 71.99%;
+  left: 51.05%;
+}
+.blogs16,
+.doctors32,
+.services35,
+.testimonials24 {
+  width: 5.55%;
+  top: 29.39%;
+  right: 43.41%;
+  bottom: 64.5%;
+}
+.blogs16,
+.doctors32,
+.testimonials24 {
+  width: 4.98%;
+  top: 37.48%;
+  right: 43.97%;
+  bottom: 56.41%;
+}
+.blogs16,
+.testimonials24 {
+  width: 7.72%;
+  top: 44.97%;
+  right: 41.23%;
+  bottom: 48.92%;
+}
+.blogs16 {
+  height: 5.92%;
+  width: 3.94%;
+  top: 53.06%;
+  right: 44.77%;
+  bottom: 41.03%;
+  left: 51.29%;
+}
+.blog-child1,
+.footer8 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.footer8 {
+  height: 24.79%;
+  top: 75.21%;
+  text-align: justify;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.blog-child1 {
+  height: 100%;
+  top: 0;
+  background-color: var(--color-lavender-700);
+}
+.latest-blog-posts4 {
+  position: absolute;
+  width: 25.24%;
+  top: 5.97%;
+  left: 37.38%;
+  font-size: var(--font-size-10xl);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  font-family: var(--font-red-hat-mono);
+  color: var(--color-mediumslateblue);
+}
+.reviewline23 {
+  position: absolute;
+  height: 0.28%;
+  width: 83.03%;
+  top: 15.56%;
+  right: 8.69%;
+  bottom: 84.17%;
+  left: 8.28%;
+  border-top: 2px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.blog-1-child2,
+.blog1-icon4 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.blog-1-child2 {
+  height: 100%;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-400);
+}
+.blog1-icon4 {
+  height: 55.15%;
+  bottom: 44.85%;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.at-medprompt-we10 {
+  margin: 0;
+  font-size: var(--font-size-smi);
+}
+.how-to-take-container4 {
+  position: absolute;
+  height: 27.58%;
+  width: 88.62%;
+  top: 59.54%;
+  left: 6.64%;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.reviewline24 {
+  position: absolute;
+  height: 0.26%;
+  width: 85.76%;
+  top: 86.98%;
+  right: 7.75%;
+  bottom: 12.76%;
+  left: 6.49%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.dr-aarav-sinha8 {
+  position: absolute;
+  height: 4.9%;
+  width: 83.88%;
+  top: 89.43%;
+  left: 7.6%;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.03em;
+  white-space: pre-wrap;
+  display: none;
+}
+.blog-14 {
+  position: absolute;
+  height: 53.89%;
+  width: 25.4%;
+  top: 31.67%;
+  right: 65.68%;
+  bottom: 14.44%;
+  left: 8.92%;
+  font-size: var(--font-size-mini);
+}
+.april-23-20244,
+.dr-aarav-sinha9,
+.read-more12 {
+  position: absolute;
+  top: 572px;
+  left: 136px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  width: 108px;
+  height: 18px;
+}
+.april-23-20244,
+.read-more12 {
+  left: 318px;
+  width: 106px;
+  height: 15px;
+}
+.read-more12 {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-smi);
+  font-weight: 700;
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+}
+.read-more-b14 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 2.08%;
+  width: 6.75%;
+  top: 73.47%;
+  right: 67.23%;
+  bottom: 24.44%;
+  left: 26.02%;
+}
+.blog-2-child2,
+.blog2-icon4 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.blog-2-child2 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+}
+.blog2-icon4 {
+  height: 54.64%;
+  top: 0.52%;
+  bottom: 44.85%;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.care-for-your-container4 {
+  position: absolute;
+  height: 25.77%;
+  width: 83.54%;
+  top: 59.54%;
+  left: 6.95%;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.reviewline25 {
+  position: absolute;
+  height: 0.26%;
+  width: 85.76%;
+  top: 86.98%;
+  right: 7.44%;
+  bottom: 12.76%;
+  left: 6.8%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.dr-amit-verma9 {
+  position: absolute;
+  height: 4.9%;
+  width: 83.88%;
+  top: 89.43%;
+  left: 7.91%;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.03em;
+  white-space: pre-wrap;
+  display: none;
+}
+.blog-24 {
+  position: absolute;
+  height: 53.89%;
+  width: 25.4%;
+  top: 31.67%;
+  right: 37.46%;
+  bottom: 14.44%;
+  left: 37.14%;
+  font-size: var(--font-size-mini);
+}
+.read-more13 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+}
+.read-more-b24 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 2.08%;
+  width: 6.27%;
+  top: 73.47%;
+  right: 38.59%;
+  bottom: 24.44%;
+  left: 55.13%;
+}
+.blog-3-child2 {
+  position: absolute;
+  height: 100%;
+  width: 99.66%;
+  top: 0;
+  right: 0.34%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+}
+.neurology-science-advances-container4 {
+  position: absolute;
+  height: 25.77%;
+  width: 83.26%;
+  top: 59.54%;
+  left: 8.22%;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.reviewline26 {
+  position: absolute;
+  height: 0.26%;
+  width: 85.47%;
+  top: 86.98%;
+  right: 6.47%;
+  bottom: 12.76%;
+  left: 8.06%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.dr-vikram-singhania9 {
+  position: absolute;
+  height: 4.9%;
+  width: 83.6%;
+  top: 89.43%;
+  left: 9.47%;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.03em;
+  white-space: pre-wrap;
+  display: none;
+}
+.blog-34 {
+  position: absolute;
+  height: 53.89%;
+  width: 25.48%;
+  top: 31.67%;
+  right: 8.68%;
+  bottom: 14.44%;
+  left: 65.84%;
+  font-size: var(--font-size-mini);
+}
+.read-more-b34 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 2.08%;
+  width: 6.91%;
+  top: 73.47%;
+  right: 9.99%;
+  bottom: 24.44%;
+  left: 83.09%;
+}
+.dr-amit-verma10,
+.dr-vikram-singhania10,
+.march-15-20244,
+.march-29-20244 {
+  position: absolute;
+  top: 572px;
+  left: 498px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  width: 108px;
+  height: 18px;
+}
+.dr-vikram-singhania10,
+.march-15-20244,
+.march-29-20244 {
+  left: 670px;
+  width: 106px;
+  height: 15px;
+}
+.dr-vikram-singhania10,
+.march-15-20244 {
+  left: 872px;
+  width: 152px;
+  height: 18px;
+}
+.march-15-20244 {
+  left: 1046px;
+  width: 106px;
+  height: 15px;
+}
+.blog20,
+.servicesbox119,
+.testimonials-child2 {
+  position: absolute;
+  height: 35.21%;
+  width: 100%;
+  top: 40%;
+  right: 0;
+  bottom: 24.79%;
+  left: 0;
+}
+.servicesbox119,
+.testimonials-child2 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: var(--color-lavender-600);
+}
+.servicesbox119 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightsteelblue-200);
+}
+.servicesbox119:hover {
+  cursor: default;
+}
+.dealing-with-a4,
+.rohan-verma4 {
+  position: absolute;
+  display: inline-block;
+}
+.dealing-with-a4 {
+  height: 73.92%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+}
+.rohan-verma4 {
+  height: 16.25%;
+  width: 22.91%;
+  top: 83.84%;
+  left: 0.49%;
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.general19,
+.service-134 {
+  position: absolute;
+  height: 68.91%;
+  width: 84.41%;
+  top: 16.17%;
+  right: 9.56%;
+  bottom: 14.93%;
+  left: 6.03%;
+}
+.service-134 {
+  height: 22.27%;
+  width: 37.58%;
+  top: 66.8%;
+  right: 52.81%;
+  bottom: 10.93%;
+  left: 9.61%;
+}
+.service-110:hover,
+.service-114:hover,
+.service-124:hover,
+.service-134:hover {
+  cursor: pointer;
+  animation: 1s ease-out 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.very-much-satisfied4,
+.vikram-singh4 {
+  position: absolute;
+  display: inline-block;
+}
+.very-much-satisfied4 {
+  height: 60.38%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+}
+.vikram-singh4 {
+  height: 16.25%;
+  width: 25.12%;
+  top: 83.84%;
+  left: 0.49%;
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.general20,
+.service-124 {
+  position: absolute;
+  height: 68.91%;
+  width: 84.41%;
+  top: 16.11%;
+  right: 9.56%;
+  bottom: 14.99%;
+  left: 6.03%;
+}
+.service-124 {
+  height: 22.27%;
+  width: 37.58%;
+  top: 34.72%;
+  right: 9.45%;
+  bottom: 43.01%;
+  left: 52.97%;
+}
+.the-ophthalmology-care4 {
+  position: absolute;
+  height: 54.06%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+  display: inline-block;
+}
+.anil-joshi4 {
+  position: absolute;
+  height: 16.25%;
+  width: 17%;
+  top: 83.84%;
+  left: 0.49%;
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+.service-114 {
+  position: absolute;
+  height: 22.27%;
+  width: 37.58%;
+  top: 66.25%;
+  right: 9.45%;
+  bottom: 11.48%;
+  left: 52.97%;
+}
+.testimonials27 {
+  position: absolute;
+  height: 5.25%;
+  width: 17.58%;
+  top: 4.99%;
+  left: 41.48%;
+  font-size: var(--font-size-10xl);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  font-family: var(--font-red-hat-mono);
+  color: var(--color-mediumslateblue);
+  text-align: left;
+}
+.reviewline27 {
+  position: absolute;
+  height: 0.28%;
+  width: 83.03%;
+  top: 14.11%;
+  right: 8.52%;
+  bottom: 85.61%;
+  left: 8.45%;
+  border-top: 2px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.chandrika-gupta4,
+.what-our-patients4 {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.what-our-patients4 {
+  height: 6.22%;
+  width: 35.47%;
+  top: 18.67%;
+  left: 32.58%;
+  font-size: var(--font-size-11xl);
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-family: var(--font-lato);
+}
+.chandrika-gupta4 {
+  height: 16.25%;
+  width: 31.28%;
+  top: 83.84%;
+  left: 0.49%;
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  font-weight: 500;
+}
+.service-110,
+.testimonials26 {
+  position: absolute;
+  height: 22.27%;
+  width: 37.58%;
+  top: 34.72%;
+  right: 52.81%;
+  bottom: 43.01%;
+  left: 9.61%;
+}
+.testimonials26 {
+  height: 35.31%;
+  width: 100%;
+  top: 4.69%;
+  right: 0;
+  bottom: 60%;
+  left: 0;
+  text-align: justify;
+  font-size: var(--font-size-sm);
+}
+.menusectionbg8 {
+  background-color: var(--color-aliceblue-200);
+}
+.menubtnsection8,
+.menubtnsectionbg8,
+.menusectionbg8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.menubtnsection8 {
+  width: 68.2%;
+  left: 31.8%;
+}
+.logosectionbg8,
+.medprompt17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 304.3px;
+  height: 93px;
+}
+.medprompt17 {
+  top: 32.7px;
+  left: 75.9px;
+  font-weight: 800;
+  display: inline-block;
+  width: 242.8px;
+  height: 37.7px;
+}
+.logopic-icon17 {
+  position: absolute;
+  top: 39.4px;
+  left: 34.4px;
+  width: 32px;
+  height: 27px;
+}
+.home18,
+.logosection8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 318.7px;
+  height: 93px;
+}
+.home18 {
+  height: 100%;
+  width: 100%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.about36,
+.blog21,
+.doctors34,
+.home17,
+.services37,
+.testimonial16 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 18px;
+  width: 52px;
+  position: relative;
+}
+.home17:hover {
+  mix-blend-mode: normal;
+}
+.about36,
+.blog21,
+.doctors34,
+.services37,
+.testimonial16 {
+  cursor: default;
+  width: 55px;
+}
+.about36:hover,
+.blog21:hover,
+.doctors34:hover,
+.home17:hover,
+.services37:hover,
+.testimonial16:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.blog21,
+.doctors34,
+.services37,
+.testimonial16 {
+  width: 77px;
+}
+.blog21,
+.doctors34,
+.testimonial16 {
+  cursor: pointer;
+  width: 72px;
+}
+.blog21,
+.testimonial16 {
+  width: 102px;
+}
+.blog21 {
+  width: 40px;
+  height: 23px;
+}
+.appointmentbg8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-slateblue-100);
+}
+.appointmenttext8 {
+  position: absolute;
+  height: 47.7%;
+  width: 93.21%;
+  top: 26.95%;
+  left: 4.39%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.appointment8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 175.2px;
+  position: relative;
+  height: 50.1px;
+}
+.appointment8:hover {
+  box-shadow: 0 10px 4px #d8d8df;
+  cursor: pointer;
+}
+.home-parent5 {
+  position: absolute;
+  top: 28px;
+  right: 55px;
+  width: 803px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.navbar8 {
+  margin: 0;
+  position: sticky;
+  height: calc(100% - 1949px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 1949px;
+  left: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.testimonial-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 2045px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

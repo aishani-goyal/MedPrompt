@@ -1,0 +1,893 @@
+.footerbg9,
+.medprompt18 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.footerbg9 {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lavender-400);
+}
+.medprompt18 {
+  width: 83.16%;
+  left: 16.84%;
+  font-weight: 800;
+  display: inline-block;
+}
+.logopic-icon18 {
+  position: absolute;
+  height: 67.98%;
+  width: 11.23%;
+  top: 23.1%;
+  right: 88.77%;
+  bottom: 8.92%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.footerlogo9 {
+  position: absolute;
+  height: 18.41%;
+  width: 86.83%;
+  top: 0;
+  right: 0.47%;
+  bottom: 81.59%;
+  left: 12.69%;
+}
+.your-trusted-platform9 {
+  position: absolute;
+  height: 58.94%;
+  width: 100%;
+  top: 41.06%;
+  left: 0;
+  font-size: var(--font-size-mini);
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.footerabout9 {
+  position: absolute;
+  height: 40.83%;
+  width: 24.68%;
+  top: 10.26%;
+  right: 65.59%;
+  bottom: 48.92%;
+  left: 9.73%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.medprompt-20249 {
+  position: absolute;
+  height: 3.75%;
+  width: 22.34%;
+  top: 87.18%;
+  left: 39.88%;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+}
+.quick-links19 {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.quick-links18 {
+  position: absolute;
+  height: 6.31%;
+  width: 8.68%;
+  top: 11.44%;
+  left: 51.05%;
+  line-height: 32px;
+  display: inline-block;
+}
+.connect-with-us29,
+.quick-links18 {
+  font-weight: 600;
+}
+.connect-with-us28 {
+  line-height: 24px;
+}
+.connect-with-us27 {
+  margin: 0;
+}
+.blank-line89 {
+  margin: 0;
+  font-size: var(--font-size-mini);
+}
+.supportmedpromptcom19 {
+  line-height: 20px;
+}
+.connect-with-us-container9 {
+  position: absolute;
+  height: 49.9%;
+  width: 18.49%;
+  top: 12.23%;
+  left: 72.51%;
+  display: inline-block;
+}
+.instaicon9 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ins9,
+.insta9,
+.instaicon9 {
+  position: absolute;
+}
+.ins9 {
+  top: 0;
+  left: -6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.insta9 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 81.72%;
+  bottom: 41.81%;
+  left: 16.63%;
+}
+
+.about38 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.about38:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.doctors36 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.doctors36:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.services39 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.services39:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.blogs18 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.blogs18:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.testimonials28 {
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+
+.testimonials28:hover {
+  font-weight: 450;
+  transform: scale(1.1);
+}
+
+.facebook9:hover,
+.insta9,
+.insta9:hover,
+.linkedin9:hover,
+.read-more-b15:hover,
+.read-more-b25:hover,
+.read-more-b35:hover,
+.x18:hover {
+  cursor: pointer;
+}
+.x19 {
+  top: 0;
+  left: -3.8px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 23.7px;
+  height: 23px;
+}
+.fb9,
+.x18,
+.x19 {
+  position: absolute;
+}
+.x18 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 84.77%;
+  bottom: 41.22%;
+  left: 13.32%;
+}
+.fb9 {
+  top: 0;
+  left: -2.6px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.facebook9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 4.54%;
+  width: 1.91%;
+  top: 54.24%;
+  right: 88.09%;
+  bottom: 41.22%;
+  left: 10.01%;
+}
+.facebook9,
+.ld9,
+.linkedin9 {
+  position: absolute;
+}
+.ld9 {
+  top: 0;
+  left: -7.1px;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: justify;
+  display: none;
+  width: 20.6px;
+  height: 20px;
+}
+.linkedin9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.94%;
+  width: 1.66%;
+  top: 54.24%;
+  right: 78.66%;
+  bottom: 41.81%;
+  left: 19.69%;
+}
+.about39 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: justify;
+  display: inline-block;
+}
+.about38,
+.blogs18,
+.doctors36,
+.services39,
+.testimonials28 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 6.11%;
+  width: 3.94%;
+  top: 21.89%;
+  right: 45.02%;
+  bottom: 71.99%;
+  left: 51.05%;
+}
+.blogs18,
+.doctors36,
+.services39,
+.testimonials28 {
+  width: 5.55%;
+  top: 29.39%;
+  right: 43.41%;
+  bottom: 64.5%;
+}
+.blogs18,
+.doctors36,
+.testimonials28 {
+  width: 4.98%;
+  top: 37.48%;
+  right: 43.97%;
+  bottom: 56.41%;
+}
+.blogs18,
+.testimonials28 {
+  width: 7.72%;
+  top: 44.97%;
+  right: 41.23%;
+  bottom: 48.92%;
+}
+.blogs18 {
+  height: 5.92%;
+  width: 3.94%;
+  top: 53.06%;
+  right: 44.77%;
+  bottom: 41.03%;
+  left: 51.29%;
+}
+.blog-child2,
+.footer9 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.footer9 {
+  height: 38.35%;
+  top: 61.65%;
+  text-align: justify;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.blog-child2 {
+  height: 100%;
+  top: 0;
+  background-color: var(--color-lavender-700);
+}
+.latest-blog-posts5 {
+  position: absolute;
+  height: 5.27%;
+  width: 25.24%;
+  top: 5.97%;
+  left: 37.38%;
+  font-size: var(--font-size-10xl);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  font-family: var(--font-red-hat-mono);
+  color: var(--color-mediumslateblue);
+}
+.reviewline28 {
+  position: absolute;
+  height: 0.28%;
+  width: 83.03%;
+  top: 15.55%;
+  right: 8.69%;
+  bottom: 84.17%;
+  left: 8.28%;
+  border-top: 2px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.blog-1-child3,
+.blog1-icon5 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.blog-1-child3 {
+  height: 100%;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-400);
+}
+.blog1-icon5 {
+  height: 55.15%;
+  bottom: 44.85%;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.at-medprompt-we12 {
+  margin: 0;
+  font-size: var(--font-size-smi);
+}
+.how-to-take-container5 {
+  position: absolute;
+  height: 27.59%;
+  width: 88.62%;
+  top: 59.54%;
+  left: 6.64%;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.reviewline29 {
+  position: absolute;
+  height: 0.26%;
+  width: 85.76%;
+  top: 86.97%;
+  right: 7.75%;
+  bottom: 12.77%;
+  left: 6.49%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.dr-aarav-sinha10 {
+  position: absolute;
+  height: 4.9%;
+  width: 83.88%;
+  top: 89.42%;
+  left: 7.6%;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.03em;
+  white-space: pre-wrap;
+  display: none;
+}
+.blog-15 {
+  position: absolute;
+  height: 53.89%;
+  width: 25.4%;
+  top: 31.67%;
+  right: 65.68%;
+  bottom: 14.44%;
+  left: 8.92%;
+  font-size: var(--font-size-mini);
+}
+.april-23-20245,
+.dr-aarav-sinha11,
+.read-more15 {
+  position: absolute;
+  top: 572px;
+  left: 136px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  width: 108px;
+  height: 18px;
+}
+.april-23-20245,
+.read-more15 {
+  left: 318px;
+  width: 106px;
+  height: 15px;
+}
+.read-more15 {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-smi);
+  font-weight: 700;
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+}
+.read-more-b15 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 2.09%;
+  width: 6.75%;
+  top: 73.48%;
+  right: 67.23%;
+  bottom: 24.44%;
+  left: 26.02%;
+}
+.blog-2-child3,
+.blog2-icon5 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.blog-2-child3 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+}
+.blog2-icon5 {
+  height: 54.63%;
+  top: 0.52%;
+  bottom: 44.85%;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.care-for-your-container5 {
+  position: absolute;
+  height: 25.78%;
+  width: 83.54%;
+  top: 59.54%;
+  left: 6.95%;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.reviewline30 {
+  position: absolute;
+  height: 0.26%;
+  width: 85.76%;
+  top: 86.97%;
+  right: 7.44%;
+  bottom: 12.77%;
+  left: 6.8%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.dr-amit-verma11 {
+  position: absolute;
+  height: 4.9%;
+  width: 83.88%;
+  top: 89.42%;
+  left: 7.91%;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.03em;
+  white-space: pre-wrap;
+  display: none;
+}
+.blog-25 {
+  position: absolute;
+  height: 53.89%;
+  width: 25.4%;
+  top: 31.67%;
+  right: 37.46%;
+  bottom: 14.44%;
+  left: 37.14%;
+  font-size: var(--font-size-mini);
+}
+.read-more16 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+}
+.read-more-b25 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 2.09%;
+  width: 6.27%;
+  top: 73.48%;
+  right: 38.59%;
+  bottom: 24.44%;
+  left: 55.13%;
+}
+.blog-3-child3 {
+  position: absolute;
+  height: 100%;
+  width: 99.66%;
+  top: 0;
+  right: 0.34%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-200);
+}
+.neurology-science-advances-container5 {
+  position: absolute;
+  height: 25.78%;
+  width: 83.26%;
+  top: 59.54%;
+  left: 8.22%;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.reviewline31 {
+  position: absolute;
+  height: 0.26%;
+  width: 85.47%;
+  top: 86.97%;
+  right: 6.47%;
+  bottom: 12.77%;
+  left: 8.06%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.dr-vikram-singhania11 {
+  position: absolute;
+  height: 4.9%;
+  width: 83.6%;
+  top: 89.42%;
+  left: 9.47%;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.03em;
+  white-space: pre-wrap;
+  display: none;
+}
+.blog-35 {
+  position: absolute;
+  height: 53.89%;
+  width: 25.48%;
+  top: 31.67%;
+  right: 8.68%;
+  bottom: 14.44%;
+  left: 65.84%;
+  font-size: var(--font-size-mini);
+}
+.read-more-b35 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 2.09%;
+  width: 6.91%;
+  top: 73.48%;
+  right: 9.99%;
+  bottom: 24.44%;
+  left: 83.09%;
+}
+.dr-amit-verma12,
+.dr-vikram-singhania12,
+.march-15-20245,
+.march-29-20245 {
+  position: absolute;
+  top: 571.2px;
+  left: 498px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  width: 108px;
+  height: 18px;
+}
+.dr-vikram-singhania12,
+.march-15-20245,
+.march-29-20245 {
+  left: 670px;
+  width: 106px;
+  height: 15px;
+}
+.dr-vikram-singhania12,
+.march-15-20245 {
+  left: 872px;
+  width: 152px;
+  height: 18px;
+}
+.march-15-20245 {
+  left: 1046px;
+  width: 106px;
+  height: 15px;
+}
+.blog23 {
+  position: absolute;
+  height: 54.39%;
+  width: 100%;
+  top: 7.26%;
+  right: 0;
+  bottom: 38.35%;
+  left: 0;
+}
+.menusectionbg9 {
+  background-color: var(--color-aliceblue-200);
+}
+.menubtnsection9,
+.menubtnsectionbg9,
+.menusectionbg9 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.menubtnsection9 {
+  width: 67.89%;
+  left: 32.11%;
+}
+.logosectionbg9,
+.medprompt19 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 304.3px;
+  height: 93px;
+}
+.medprompt19 {
+  top: 32.7px;
+  left: 75.9px;
+  font-weight: 800;
+  display: inline-block;
+  width: 242.8px;
+  height: 37.7px;
+}
+.logopic-icon19 {
+  position: absolute;
+  top: 39.4px;
+  left: 34.4px;
+  width: 32px;
+  height: 27px;
+}
+.home20,
+.logosection9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 318.7px;
+  height: 93px;
+}
+.home20 {
+  height: 100%;
+  width: 100%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.about40,
+.blog24,
+.doctors38,
+.home19,
+.services41,
+.testimonial18 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 18px;
+  width: 52px;
+  position: relative;
+}
+.home19:hover {
+  mix-blend-mode: normal;
+}
+.about40,
+.blog24,
+.doctors38,
+.services41,
+.testimonial18 {
+  cursor: default;
+  width: 55px;
+}
+.about40:hover,
+.blog24:hover,
+.doctors38:hover,
+.home19:hover,
+.services41:hover,
+.testimonial18:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.blog24,
+.doctors38,
+.services41,
+.testimonial18 {
+  width: 77px;
+}
+.blog24,
+.doctors38,
+.testimonial18 {
+  cursor: pointer;
+  width: 72px;
+}
+.blog24,
+.testimonial18 {
+  width: 102px;
+}
+.blog24 {
+  width: 40px;
+  height: 23px;
+}
+.appointmentbg9 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-slateblue-100);
+}
+.appointmenttext9 {
+  position: absolute;
+  height: 47.7%;
+  width: 93.21%;
+  top: 26.95%;
+  left: 4.39%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.appointment9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 175.2px;
+  position: relative;
+  height: 50.1px;
+}
+.appointment9:hover {
+  box-shadow: 0 10px 4px #d8d8df;
+  cursor: pointer;
+}
+.home-parent6 {
+  position: absolute;
+  top: 28px;
+  right: 58px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.blog-page,
+.navbar9 {
+  width: 100%;
+  text-align: left;
+}
+.navbar9 {
+  margin: 0;
+  position: sticky;
+  height: calc(100% - 1226px);
+  top: 0;
+  right: 0;
+  bottom: 1226px;
+  left: 0;
+  font-size: var(--font-size-13xl);
+  color: var(--color-slateblue-100);
+  font-family: var(--font-lato);
+}
+.blog-page {
+  position: relative;
+  background-color: var(--color-white);
+  height: 1322px;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Appointment Booking</title>
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./appointment.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red Hat Mono:wght@700&amp;display=swap" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <style>
+        @font-face {
+            font-family: "Lato";
+            src: url("./public/Lato-ExtraBold.ttf");
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="appointment-page">
+
+        <input class="name-field" placeholder="Full Name" type="text" />
+
+        <img class="appointment-image-icon" alt="" src="./public/appointment-image@2x.png" />
+
+        <input class="email-address-field" placeholder="Email Address" type="email" />
+
+        <input class="phone-no-field" placeholder="Phone Number" type="tel" />
+
+        <button class="submit-field">
+            <div class="submit">Submit</div>
+        </button>
+        <div class="book-an-appointment-wrapper">
+            <div class="book-an-appointment">Book an Appointment</div>
+        </div>
+
+        <div class="doctor-selection-component">
+
+            <input class="doc-field" placeholder="Doctor's Name" type="text" />
+        </div>
+        <input class="date-appoint-field" placeholder="Date of Appointment" type="date" />
+
+        <div class="service-selection">
+
+            <input class="doc-field" placeholder="Enter the service" type="text" />
+        </div>
+
+        <footer class="footer10">
+            <div class="footerbg10"></div>
+            <div class="footerabout10">
+                <div class="footerlogo10">
+                    <div class="medprompt20">MedPrompt</div>
+                    <img class="logopic-icon20" alt="" src="./public/logopic.svg" />
+                </div>
+                <div class="your-trusted-platform10">
+                    Your trusted platform to find the best doctors in any location and
+                    book appointments with ease. Experience seamless healthcare access
+                    and personalized care at your convenience.
+                </div>
+            </div>
+            <div class="medprompt-202410">
+                MedPrompt © 2024 All rights reserved.
+            </div>
+            <div class="quick-links20">
+                <p class="quick-links21">Quick Links</p>
+            </div>
+            <div class="connect-with-us-container10">
+                <p class="connect-with-us30">
+                    <span class="connect-with-us31">
+                        <span class="connect-with-us32">Connect with us</span>
+                    </span>
+                </p>
+                <p class="blank-line98">
+                    <span>
+                        <span class="connect-with-us31">&nbsp;</span>
+                    </span>
+                </p>
+                <p class="connect-with-us30">
+                    <span>
+                        <span class="connect-with-us31">MedPrompt, 10th Floor, Tech Park, MG Road, Bengaluru,
+                            Karnataka, 560001, India</span>
+                    </span>
+                </p>
+                <p class="connect-with-us30">
+                    <span>
+                        <span class="connect-with-us31">&nbsp;</span>
+                    </span>
+                </p>
+                <p class="connect-with-us30">
+                    <span>
+                        <span class="supportmedpromptcom21">support@medprompt.com</span>
+                    </span>
+                </p>
+                <p class="connect-with-us30">
+                    <span>
+                        <span class="supportmedpromptcom21">hr@medprompt.com</span>
+                    </span>
+                </p>
+                <p class="connect-with-us30">
+                    <span>
+                        <span class="connect-with-us31">&nbsp;</span>
+                    </span>
+                </p>
+                <p class="connect-with-us30">
+                    <span>
+                        <span class="connect-with-us31">+91-12345-67890</span>
+                    </span>
+                </p>
+                <p class="connect-with-us30">
+                    <span>
+                        <span class="connect-with-us31">+91-98765-43210</span>
+                    </span>
+                </p>
+            </div>
+            <button class="insta10" id="insta">
+                <img class="instaicon10" alt="" src="./public/instaicon.svg" />
+
+                <a class="ins10" href="https://www.instagram.com/" target="_blank">LD</a>
+            </button>
+            <button class="x20" id="x">
+                <img class="instaicon10" alt="" src="./public/twittericon.svg" />
+
+                <a class="x21" href="https://x.com/" target="_blank">LD</a>
+            </button>
+            <button class="facebook10" id="facebook">
+                <img class="instaicon10" alt="" src="./public/facebookicon.svg" />
+
+                <a class="fb10" href="https://www.facebook.com/" target="_blank">LD</a>
+            </button>
+            <button class="linkedin10" id="linkedIn">
+                <img class="instaicon10" alt="" src="./public/linkedinicon.svg" />
+
+                <a class="ld10" href="https://www.linkedin.com/feed/" target="_blank">LD</a>
+            </button>
+            <button class="about42" id="about">
+                <div class="about43">About</div>
+            </button>
+            <button class="services43" id="services">
+                <div class="about43">Services</div>
+            </button>
+            <button class="doctors40" id="doctors">
+                <div class="about43">Doctors</div>
+            </button>
+            <button class="testimonials30" id="testimonials">
+                <div class="about43">Testimonials</div>
+            </button>
+            <button class="blogs20" id="blogs">
+                <div class="about43">Blogs</div>
+            </button>
+        </footer>
+        <nav class="navbar10">
+            <div class="menusectionbg10"></div>
+            <div class="menubtnsection10">
+                <div class="menubtnsectionbg10"></div>
+            </div>
+            <div class="logosection10">
+                <div class="logosectionbg10"></div>
+                <div class="medprompt21">MedPrompt</div>
+                <img class="logopic-icon21" alt="" src="./public/logopic2.svg" />
+            </div>
+            <div class="home-parent7">
+                <button class="home21" id="home">
+                    <div class="home22">Home</div>
+                </button>
+                <button class="about44" id="about1">
+                    <div class="home22">About</div>
+                </button>
+                <button class="services45" id="services1">
+                    <div class="home22">Services</div>
+                </button>
+                <button class="doctors42" id="doctors1">
+                    <div class="home22">Doctors</div>
+                </button>
+                <button class="testimonial20" id="testimonial">
+                    <div class="home22">Testimonial</div>
+                </button>
+                <button class="blog26" id="blog">
+                    <div class="home22">Blog</div>
+                </button>
+                <button class="appointment10" id="appointment">
+                    <div class="appointmentbg10"></div>
+                    <div class="appointmenttext10">Book Appointment</div>
+                </button>
+            </div>
+        </nav>
+    </div>
+
+    <script>
+        var insta = document.getElementById("insta");
+        if (insta) {
+            insta.addEventListener("click", function () {
+                window.open("https://www.instagram.com/");
+            });
+        }
+
+        var x = document.getElementById("x");
+        if (x) {
+            x.addEventListener("click", function () {
+                window.open("https://x.com/");
+            });
+        }
+
+        var facebook = document.getElementById("facebook");
+        if (facebook) {
+            facebook.addEventListener("click", function () {
+                window.open("https://www.facebook.com/");
+            });
+        }
+
+        var linkedIn = document.getElementById("linkedIn");
+        if (linkedIn) {
+            linkedIn.addEventListener("click", function () {
+                window.open("https://www.linkedin.com/feed/");
+            });
+        }
+
+        var about = document.getElementById("about");
+        if (about) {
+            about.addEventListener("click", function (e) {
+                window.location.href = "./about-page.html";
+            });
+        }
+
+        var services = document.getElementById("services");
+        if (services) {
+            services.addEventListener("click", function (e) {
+                window.location.href = "./service-page.html";
+            });
+        }
+
+        var doctors = document.getElementById("doctors");
+        if (doctors) {
+            doctors.addEventListener("click", function (e) {
+                window.location.href = "./doctors-page.html";
+            });
+        }
+
+        var testimonials = document.getElementById("testimonials");
+        if (testimonials) {
+            testimonials.addEventListener("click", function (e) {
+                window.location.href = "./testimonial-page.html";
+            });
+        }
+
+        var blogs = document.getElementById("blogs");
+        if (blogs) {
+            blogs.addEventListener("click", function (e) {
+                window.location.href = "./blog-page.html";
+            });
+        }
+
+        var home = document.getElementById("home");
+        if (home) {
+            home.addEventListener("click", function (e) {
+                window.location.href = "./index.html";
+            });
+        }
+
+        var about1 = document.getElementById("about1");
+        if (about1) {
+            about1.addEventListener("click", function (e) {
+                window.location.href = "./about-page.html";
+            });
+        }
+
+        var services1 = document.getElementById("services1");
+        if (services1) {
+            services1.addEventListener("click", function (e) {
+                window.location.href = "./service-page.html";
+            });
+        }
+
+        var doctors1 = document.getElementById("doctors1");
+        if (doctors1) {
+            doctors1.addEventListener("click", function (e) {
+                window.location.href = "./doctors-page.html";
+            });
+        }
+
+        var testimonial = document.getElementById("testimonial");
+        if (testimonial) {
+            testimonial.addEventListener("click", function (e) {
+                window.location.href = "./testimonial-page.html";
+            });
+        }
+
+        var blog = document.getElementById("blog");
+        if (blog) {
+            blog.addEventListener("click", function (e) {
+                window.location.href = "./blog-page.html";
+            });
+        }
+
+        var appointment = document.getElementById("appointment");
+        if (appointment) {
+            appointment.addEventListener("click", function (e) {
+                window.location.href = "./appointment-page.html";
+            });
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.submit-field').click(function (e) {
+                e.preventDefault();
+
+                // input field values
+                var name = $('.name-field').val();
+                var email = $('.email-address-field').val();
+                var phone = $('.phone-no-field').val();
+                var doctor = $('.doc-field').val();
+                var date = $('.date-appoint-field').val();
+                var service = $('.service-selection .doc-field').val();
+
+                // AJAX request
+                $.ajax({
+                    url: 'insert.php',
+                    type: 'POST',
+                    data: {
+                        name: name,
+                        email: email,
+                        phone: phone,
+                        doctor: doctor,
+                        date: date,
+                        service: service
+                    },
+                    success: function (response) {
+                        alert(response);
+                        
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Error occurred: ' + error);
+                    }
+
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
