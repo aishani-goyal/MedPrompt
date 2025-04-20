@@ -1,4 +1,4 @@
-# MedPrompt: Doctor Search and Appointment Booking Web Application
+# 🩺 MedPrompt: Doctor Search and Appointment Booking Web Application
 
 **MedPrompt** is a web application that enables users to easily search for nearby doctors based on location and specialty, view their details, and book appointments online. The platform streamlines healthcare access by digitizing the process of finding and scheduling consultations.
 
