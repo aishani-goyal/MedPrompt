@@ -6,10 +6,12 @@
 
 ## 🛠 Tech Stack
 
+- **Design Tool:** Figma (UI/UX Design)
+- **Design to Code:** Locofy.ai (Figma to HTML/CSS)
 - **Frontend:** HTML5, CSS3, JavaScript, jQuery  
 - **Backend:** PHP  
 - **Database:** MySQL  
-- **Hosting:** 000webhost  
+- **Hosting:** 000webhost 
 
 ---
 
