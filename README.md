@@ -1,10 +1,43 @@
+# 🩺 MedPrompt: Doctor Search and Appointment Booking Web Application
 
-  # DoctorSearchWebsite
+**MedPrompt** is a web application that enables users to easily search for nearby doctors based on location and specialty, view their details, and book appointments online. The platform streamlines healthcare access by digitizing the process of finding and scheduling consultations.
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+---
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+## 🛠 Tech Stack
+
+- **Design Tool:** Figma (UI/UX Design)
+- **Design to Code:** Locofy.ai (Figma to HTML/CSS)
+- **Frontend:** HTML5, CSS3, JavaScript, jQuery  
+- **Backend:** PHP  
+- **Database:** MySQL  
+- **Hosting:** 000webhost 
+
+---
+
+## ✨ Features
+
+- Search doctors by **location** and **specialty**
+- View doctor details like name, qualification, and timings
+- Book appointments through a simple form
+- Data stored securely in a MySQL database
+- Fully responsive and easy-to-use interface
+
+---
+
+## 🎥 Demo Video
+
+[Click here to watch the demo](https://drive.google.com/file/d/1SUpQfT8HN29IK9U5ffsXQYy-v3BhiQVH/view?usp=sharing)  
+
+---
+
+## ⚙️ How It Works
+
+1. **Homepage:** Users select a location and specialization.
+2. **Doctor Listing:** Matching doctors are displayed with relevant details.
+3. **Appointment Booking:** Users can fill out a form to book an appointment.
+4. **Backend Handling:** PHP scripts store the appointment data in a MySQL database.
+5. **Deployment:** The application is hosted using 000webhost.
+
+---
+
