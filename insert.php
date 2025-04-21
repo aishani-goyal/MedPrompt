@@ -1,15 +1,31 @@
 <?php
 
+require 'vendor/autoload.php';
+
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
+//use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+use Dotenv\Dotenv;
 
-require 'phpmailer/src/Exception.php';
+/*require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
-require 'phpmailer/src/SMTP.php';
+require 'phpmailer/src/SMTP.php'; */
+
+// Load environment variables from .env file
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+// Get SMTP credentials securely from .env
+$smtpUser = $_ENV['SMTP_USERNAME'];
+$smtpPass = $_ENV['SMTP_PASSWORD'];
+
+$dbHost = $_ENV['DB_HOST'];
+$dbUser = $_ENV['DB_USER'];
+$dbPass = $_ENV['DB_PASS'];
+$dbName = $_ENV['DB_NAME'];
 
 
-$conn = mysqli_connect("localhost", "id22268516_doctor_admin", "Docadmin@2024", "id22268516_doctor_info") or die("Connection failed");
+$conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName) or die("Connection failed");
 
 
 $name = $_POST['name'];
@@ -37,15 +53,15 @@ if ($qry) {
         $mail->isSMTP();                                           
         $mail->Host       = 'smtp.gmail.com';                      
         $mail->SMTPAuth   = true;                                   
-        $mail->Username   = 'medprompt24x7@gmail.com';              
-        $mail->Password   = 'xsznbnsenkcictgu';                     
+        $mail->Username   = $smtpUser;              
+        $mail->Password   = $smtpPass;                     
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         
         $mail->Port       = 587;                                    
 
        
-        $mail->setFrom('medprompt24x7@gmail.com', 'MedPrompt');
+        $mail->setFrom($smtpUser, 'MedPrompt');
         $mail->addAddress($email, $name);                           
-        $mail->addReplyTo('medprompt24x7@gmail.com', 'MedPrompt');
+        $mail->addReplyTo($smtpUser, 'MedPrompt');
 
        
         $mail->isHTML(true);                                       
